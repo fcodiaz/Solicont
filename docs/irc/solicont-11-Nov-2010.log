@@ -1,0 +1,320 @@
+**** BEGIN LOGGING AT Thu Nov 11 19:30:53 2010
+
+Nov 11 19:30:53 *	Now talking on #solicont
+Nov 11 19:30:54 *	Topic for #solicont is: Minuta de reunion 4 de noviembre: https://github.com/fcodiaz/Solicont/wiki/Noviembre-4-2010 || Funcionalidades pensadas en solicont: http://tinyurl.com/339n7lj || Proxima reunión 11 de noviembre 21 horas GMT-6 en este canal
+Nov 11 19:30:54 *	Topic for #solicont set by vostorga!~vostorga@gentoo/developer/vostorga at Tue Nov  9 10:13:07 2010
+Nov 11 19:30:54 *	[freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+Nov 11 19:38:15 *	#solicont :You're not channel operator
+Nov 11 19:59:59 <fcodiaz>	jovenes
+Nov 11 20:00:02 <fcodiaz>	estamos?
+Nov 11 20:01:20 <elsimio>	donde?
+Nov 11 20:01:31 <fcodiaz>	ya habemos dos
+Nov 11 20:01:35 <fcodiaz>	que ondas elsimio 
+Nov 11 20:01:41 <elsimio>	nancing
+Nov 11 20:01:43 <fcodiaz>	como esta el frio por alla en DC?
+Nov 11 20:02:43 <elsimio>	mas o menos pasable
+Nov 11 20:03:00 <fcodiaz>	tranquilo
+Nov 11 20:03:10 <fcodiaz>	creo que somos los unicos por el momento
+Nov 11 20:03:14 <elsimio>	y q vamos a discutir ahora?
+Nov 11 20:03:31 <fcodiaz>	la agenda esta en: https://github.com/fcodiaz/Solicont/wiki/Lista-de-reuniones
+Nov 11 20:03:41 <fcodiaz>	uno es el documento que vos estabas preparando
+Nov 11 20:04:00 <fcodiaz>	otro es el documento que yo estaba preparando para la seleccion del lenguaje
+Nov 11 20:04:05 <fcodiaz>	y 3 sobre el diseno de la DB
+Nov 11 20:04:10 <elsimio>	ah ok
+Nov 11 20:04:39 <fcodiaz>	ya casi 5 minutos y creo que no somos suficientes
+Nov 11 20:04:44 <elsimio>	cabal
+Nov 11 20:04:49 <elsimio>	sino la damos por nula
+Nov 11 20:04:54 <elsimio>	y la podriamos pasar dia martes
+Nov 11 20:04:54 <fcodiaz>	no quisiera
+Nov 11 20:05:03 <fcodiaz>	pueda ser
+Nov 11 20:05:06 <fcodiaz>	demos unos minutos mas
+Nov 11 20:05:11 <elsimio>	ok
+Nov 11 20:05:20 <fcodiaz>	como ves el documento que estabas trabajando
+Nov 11 20:05:25 <fcodiaz>	yo le agregue varios puntos
+Nov 11 20:05:51 <elsimio>	si se miran mas o menos bien, unico q ahi con eso esta todaviabien tirado a solo contabilidad
+Nov 11 20:06:07 <fcodiaz>	bueno, es lo que primordialmente va a hacer no
+Nov 11 20:06:12 <elsimio>	si
+Nov 11 20:06:21 <fcodiaz>	y no estoy seguro si en una primer release podamos abarcar todo
+Nov 11 20:06:26 <elsimio>	eso si
+Nov 11 20:06:31 <elsimio>	luego se le pueden ir agregando mas cosas
+Nov 11 20:06:33 <fcodiaz>	seria bueno quiza ver de los features
+Nov 11 20:06:41 <fcodiaz>	cuales son los mas importantes y con cuales podriamos arrancar
+Nov 11 20:06:47 <fcodiaz>	exacto
+Nov 11 20:07:13 <fcodiaz>	tambien le dije a cmsamour que seria bueno que una vez este documento este listo
+Nov 11 20:07:22 <fcodiaz>	se empareje con el diseno de la db
+Nov 11 20:07:39 <elsimio>	si
+Nov 11 20:07:40 <fcodiaz>	y ver si se necesita hacer algunos cambios
+Nov 11 20:08:35 <fcodiaz>	si no te molesta creo que seria bueno crear ya en el wiki la lista de caracteristicas que estan en tu documento y comenzar a preparar el prototipo
+Nov 11 20:08:43 <fcodiaz>	tu tenes cuenta en github?
+Nov 11 20:08:46 <elsimio>	no
+Nov 11 20:08:54 <elsimio>	creen esa lista ahi
+Nov 11 20:08:58 <elsimio>	no hay problema
+Nov 11 20:09:15 <fcodiaz>	ok la voy a subir mas tarde o ahora
+Nov 11 20:09:30 <fcodiaz>	como la ves vos, ya casi lista, como para arrancar?
+Nov 11 20:09:40 <elsimio>	lo basico tiene
+Nov 11 20:09:47 <elsimio>	en la BD hay q quebrarse el coco
+Nov 11 20:10:05 <elsimio>	para no crear una base de datos plana y simple de un sistema contable normal
+Nov 11 20:10:11 <elsimio>	sino algo grande pensando a futuro
+Nov 11 20:10:53 <fcodiaz>	eso si, es importante que la db quede bien, asi no nos topamos con limitantes luego cuando querramos agregar esto o lo otro
+Nov 11 20:11:02 <fcodiaz>	emonge, dijo que podria colaborar con eso
+Nov 11 20:11:21 <fcodiaz>	ya 11 minutos y no hay nadie mas
+Nov 11 20:11:26 <elsimio>	ahi hay q pedirle ayuda a cmsamour y a tadeo
+Nov 11 20:11:35 <fcodiaz>	tambien
+Nov 11 20:11:46 <fcodiaz>	el tadeo como que esta bien metido en este tipo de proyectos no?
+Nov 11 20:12:05 <fcodiaz>	bueno y con el lenguaje como lo ves, cual crees que sera el utilizado?
+Nov 11 20:12:34 <elsimio>	si los q sabemos php bien no nos ponemos las pilas
+Nov 11 20:12:36 <elsimio>	se hara en java
+Nov 11 20:12:43 <fcodiaz>	jajaajaja
+Nov 11 20:13:06 <fcodiaz>	y en el caso que sea en php, a pata o con algun framework?
+Nov 11 20:13:15 <emonge>	buenas noches
+Nov 11 20:13:20 <emonge>	disculpen la tardanza
+Nov 11 20:13:28 <emonge>	estoy medio ocupado
+Nov 11 20:13:40 <elsimio>	no creo; lo q sugeriria es comenzar a hacer funciones basicas
+Nov 11 20:13:42 <fcodiaz>	no problema, por aca estamos platicando
+Nov 11 20:13:46 <elsimio>	para no ocupar querys
+Nov 11 20:13:49 <elsimio>	hacer el core
+Nov 11 20:13:55 <fcodiaz>	utilities
+Nov 11 20:13:58 <elsimio>	si
+Nov 11 20:14:03 <elsimio>	primero trabajar el core
+Nov 11 20:14:17 <elsimio>	y q todo sea en modulos
+Nov 11 20:14:21 <fcodiaz>	aja
+Nov 11 20:14:40 <fcodiaz>	por aca emonge , en discusion abierta
+Nov 11 20:14:46 <fcodiaz>	dado que no habemos muchos
+Nov 11 20:14:53 <fcodiaz>	solo nosotros tres estamos
+Nov 11 20:15:04 <emonge>	ah ok
+Nov 11 20:15:06 <fcodiaz>	aqui discutiendo el tema del lenguaje
+Nov 11 20:15:44 <elsimio>	viendo los grammy estas verdad emonge gay
+Nov 11 20:15:48 <elsimio>	a ricky martin cantar
+Nov 11 20:15:51 <fcodiaz>	emonge, en tu opinion cual seria un buen lenguaje
+Nov 11 20:16:10 *	fcodiaz ve a emonge escondiendo las banderitas de colores
+Nov 11 20:16:24 <emonge>	jajaja
+Nov 11 20:16:26 <emonge>	nop
+Nov 11 20:16:31 <emonge>	programando en c#
+Nov 11 20:16:32 <emonge>	jajaja
+Nov 11 20:16:35 <emonge>	ayudandole a mi novia
+Nov 11 20:16:48 <fcodiaz>	emonge, haciendo puntos
+Nov 11 20:17:06 <elsimio>	ganandose la cena
+Nov 11 20:17:28 <emonge>	ajajaja
+Nov 11 20:17:39 <fcodiaz>	y posiblemente desayuno xD
+Nov 11 20:17:45 <elsimio>	bueno el otro anio cuando este los 3 meses podria trabajar en eso
+Nov 11 20:17:53 <elsimio>	solibiz
+Nov 11 20:17:58 <elsimio>	opencont
+Nov 11 20:18:15 <fcodiaz>	bueno, ya para entonces deberia haber algo mas concreto y un poco de buen codigo
+Nov 11 20:18:30 <fcodiaz>	emonge, si vos comenzaras hoy a programar en solicont, que lenguaje usaras?
+Nov 11 20:18:38 <emonge>	fcodiaz, php
+Nov 11 20:18:45 <fcodiaz>	elsimio, dice lo mismo
+Nov 11 20:19:07 <elsimio>	ademas q lo estamos pensando como para empresas
+Nov 11 20:19:13 <fcodiaz>	ok
+Nov 11 20:19:16 <elsimio>	es facil configurar java pero mas facil php
+Nov 11 20:19:37 <fcodiaz>	el proyecto va a ser para web verdad?
+Nov 11 20:19:57 <fcodiaz>	como dice elsimio, es necesario crear la base del sistema, el core
+Nov 11 20:20:03 <fcodiaz>	para que luego todo lo demas sea modular
+Nov 11 20:20:25 <emonge>	cierto
+Nov 11 20:20:26 <elsimio>	si
+Nov 11 20:22:13 <fcodiaz>	ok entonces jovenes
+Nov 11 20:22:18 <fcodiaz>	esta reunion, desierta
+Nov 11 20:22:23 <fcodiaz>	podemos concluir algo?
+Nov 11 20:22:25 <elsimio>	igual q las licitaciones
+Nov 11 20:22:31 <fcodiaz>	emonge, con lo del diseno de la DB?
+Nov 11 20:22:38 <elsimio>	hay q meter eso del doc al wiki
+Nov 11 20:22:46 <fcodiaz>	yo paso eso elsimio 
+Nov 11 20:22:53 <elsimio>	chevere
+Nov 11 20:23:05 <elsimio>	luego vere si pongo en el doc eso de modular, etc
+Nov 11 20:23:07 <elsimio>	el core
+Nov 11 20:23:07 <fcodiaz>	elsimio, crees que podrias trabajar en pantallas de como deberia verse?
+Nov 11 20:23:31 <emonge>	fcodiaz, entiendo que por el momento no se iba a modificar lo diseñado por cmsamour
+Nov 11 20:23:32 <fcodiaz>	o yo puedo trabajar en las pantallas para el prototipo
+Nov 11 20:23:38 <elsimio>	en pantallas no creo, en lo de los modulos, ec si
+Nov 11 20:23:50 <fcodiaz>	si, solo queria confirmar contigo que no habia nada mas que agregar ahi
+Nov 11 20:24:15 <elsimio>	ok
+Nov 11 20:24:17 <fcodiaz>	solo como le decia a elsimio emparejar lo que se ha puesto en las caracteristicas y ver si no hace falta nada en la DB
+Nov 11 20:24:33 <fcodiaz>	entonces elsimio tu puedes trabajar en el core
+Nov 11 20:24:36 <elsimio>	si
+Nov 11 20:24:38 <emonge>	de igual forma, se puede iniciar asi
+Nov 11 20:24:41 <fcodiaz>	y como este se enlazaria con los modulos
+Nov 11 20:24:44 <elsimio>	pero no con esa base q esta ahi
+Nov 11 20:24:48 <emonge>	por que?
+Nov 11 20:24:57 <fcodiaz>	por?
+Nov 11 20:24:58 <jotamjr_>	fcodiaz: y el .sql esta en github?
+Nov 11 20:25:01 <elsimio>	pq esa bae no esta modular
+Nov 11 20:25:09 <elsimio>	esta asi para un sistema ranger
+Nov 11 20:25:17 <fcodiaz>	jotamjr_, 
+Nov 11 20:25:18 <fcodiaz>	saludos
+Nov 11 20:25:23 <fcodiaz>	estamos en reunion abierta
+Nov 11 20:25:39 <jotamjr_>	si he estado leyendo :)
+Nov 11 20:25:40 <fcodiaz>	elsimio, entonces que crees que debe cambiarse en ese diseno?
+Nov 11 20:26:01 <fcodiaz>	jotamjr_, creo que no, cmsamour no me paso eso 
+Nov 11 20:26:02 <elsimio>	si y mucho
+Nov 11 20:26:04 <fcodiaz>	lo del .sql
+Nov 11 20:26:09 <elsimio>	voy a proponer con tiempo una base yo
+Nov 11 20:26:39 <fcodiaz>	elsimio, ya esta un diseno ahi, creo que en lugar de proponer otro, seria mejor modificar el que existe y adecuarlo
+Nov 11 20:26:51 <fcodiaz>	no veo por que hacer otra vez el trabajo de algo que ya esta casi listo
+Nov 11 20:26:57 <elsimio>	bueno si
+Nov 11 20:26:59 <fcodiaz>	que opinan los demas?
+Nov 11 20:27:00 <elsimio>	modificarlo
+Nov 11 20:27:09 <elsimio>	pero igual, ese diseno esta asi como cuadrado
+Nov 11 20:27:11 <fcodiaz>	exacto, no esta escrito en piedra
+Nov 11 20:27:15 <elsimio>	CxP, CxC, etc
+Nov 11 20:27:16 <fcodiaz>	ok
+Nov 11 20:27:26 <elsimio>	si queremos en el futuro agregar algo de cotizaciones, etc
+Nov 11 20:27:39 <elsimio>	nos tocaria agregar tablas y es lo q no quisiera
+Nov 11 20:27:47 <fcodiaz>	elsimio, entonces crees que puedes retomar el que esta y hacerle los cambios que tu sugeririas
+Nov 11 20:27:49 <elsimio>	sino q la base q hagamos seria ya para planes a futuro funcionable
+Nov 11 20:27:53 <elsimio>	si
+Nov 11 20:28:13 <fcodiaz>	hmmm en todo caso, por mucho que le pongamos siempre se nos va a quedar algo fuera
+Nov 11 20:28:32 <elsimio>	si claro
+Nov 11 20:28:33 <fcodiaz>	y habra que agregarle siempre algo
+Nov 11 20:28:40 <fcodiaz>	pero me parece
+Nov 11 20:28:44 <elsimio>	por eso la craneada esta en la base
+Nov 11 20:28:47 <fcodiaz>	emonge, que opinas
+Nov 11 20:28:54 <jotamjr_>	por cierto y en ese diseño la herramienta no muestra las relaciones o estas no existen?
+Nov 11 20:29:06 <fcodiaz>	si eso es cierto eso le pregunte a cmsamour que eso no se ve
+Nov 11 20:29:38 <fcodiaz>	jotamjr_, si a vos te tocara comenzar a programar en solicont ahora mismo, que lenguaje usarias?
+Nov 11 20:29:58 <emonge>	fcodiaz, de acuerdo
+Nov 11 20:30:05 <jotamjr_>	fcodiaz: perl
+Nov 11 20:30:09 <elsimio>	puta
+Nov 11 20:30:11 <elsimio>	cgi?
+Nov 11 20:30:15 <fcodiaz>	razon, motivo?
+Nov 11 20:30:18 <fcodiaz>	pros, cons?
+Nov 11 20:30:25 <jotamjr_>	bueno perl + Catalyst
+Nov 11 20:30:34 <jotamjr_>	a puro perl es un suicidio
+Nov 11 20:30:38 <fcodiaz>	si
+Nov 11 20:30:43 <jotamjr_>	catalyst presenta varias ventajas:
+Nov 11 20:30:47 <fcodiaz>	es tanto como hacerlo en C o C++
+Nov 11 20:30:52 <elsimio>	si
+Nov 11 20:30:52 <fcodiaz>	ok
+Nov 11 20:30:56 <jotamjr_>	* todo cpan disponible
+Nov 11 20:31:04 <jotamjr_>	* ORM
+Nov 11 20:31:15 <jotamjr_>	este permite tener esquemas estaticos o dinamicos
+Nov 11 20:31:32 <jotamjr_>	con soporte a muchos SGBD
+Nov 11 20:31:53 <jotamjr_>	* PERL MOTTO :)
+Nov 11 20:31:58 <fcodiaz>	ya veo
+Nov 11 20:32:02 <fcodiaz>	no se nota xD
+Nov 11 20:32:14 <jotamjr_>	si
+Nov 11 20:32:17 <jotamjr_>	lo malo
+Nov 11 20:32:22 <fcodiaz>	aja
+Nov 11 20:32:25 <jotamjr_>	* no es tan comun como php o java
+Nov 11 20:32:52 <jotamjr_>	aunque creo que ir de php -> perl no es tan complicado
+Nov 11 20:33:08 <elsimio>	yo puedo perl en web
+Nov 11 20:33:08 <jotamjr_>	ademas el Catalyst tiene un monton de plugins
+Nov 11 20:33:10 <elsimio>	pero bueno
+Nov 11 20:33:20 <jotamjr_>	* autorización, autenticación, REST, etc, etc
+Nov 11 20:33:29 <fcodiaz>	ok, yo habia preparado este documento: https://github.com/fcodiaz/Solicont/blob/master/docs/DocumentoSeleccionLenguajeProgramacion.odt
+Nov 11 20:33:46 <fcodiaz>	para que hicieramos nuestra propia investigacion en el lenguaje que deseamos proponer
+Nov 11 20:33:48 <jotamjr_>	elsimio: le harías con PERL?
+Nov 11 20:33:59 <elsimio>	huevo si, pero otros no
+Nov 11 20:34:07 <fcodiaz>	si les parece, por que no respondemos a las preguntas en ese documento para el lenguaje de nuestra preferencia 
+Nov 11 20:34:25 <fcodiaz>	y en cuanto tiempo creen que podrian tenerlo listo
+Nov 11 20:34:31 <elsimio>	lo bajare
+Nov 11 20:34:52 <jotamjr_>	fcodiaz: hay fecha limite?
+Nov 11 20:35:10 <fcodiaz>	no, pero cuanto tiempo crees que podrias tenerlo listo?
+Nov 11 20:35:15 <jotamjr_>	yo ya había visto el doc, pero pienso que no muchos se quieran tirar por el lado de perl.
+Nov 11 20:35:18 <elsimio>	tratemos para la otra semana
+Nov 11 20:35:31 <fcodiaz>	una semana entonces
+Nov 11 20:35:49 <elsimio>	si
+Nov 11 20:35:50 <fcodiaz>	yo croe que es suficiente para completar las preguntas y presentar una propuesta para X o Y lenguaje
+Nov 11 20:36:02 <fcodiaz>	jotamjr_ que opinas?
+Nov 11 20:36:13 <fcodiaz>	asi vemos los pros y cons de cada lengueje
+Nov 11 20:36:24 *	smartinez (~smartinez@200.85.30.202) has joined #solicont
+Nov 11 20:36:27 <jotamjr_>	una semana a partir de ahora verdad?
+Nov 11 20:36:29 <fcodiaz>	ponemos los resultados en una tabla y luego seleccionamos
+Nov 11 20:36:32 <fcodiaz>	si
+Nov 11 20:36:37 <jotamjr_>	si esta bien.
+Nov 11 20:36:59 *	fcodiaz ve que emonge esta viendo los premios grammys
+Nov 11 20:37:10 <fcodiaz>	entonces so far, tenemos
+Nov 11 20:37:31 <fcodiaz>	elsimio, va a trabajar en un diseno del core del sistema, ademas de presentar el documento de seleccion para PHP
+Nov 11 20:37:40 <fcodiaz>	elsimio, verdad?
+Nov 11 20:37:55 <fcodiaz>	jotamjr_, trabajara en el documento para Perl+catalyst
+Nov 11 20:38:01 <elsimio>	si
+Nov 11 20:38:16 <jotamjr_>	sep!
+Nov 11 20:38:18 <fcodiaz>	yo puedo hacer una presentacion para Python y si tengo tiempo puedo hacer otra para Ruby, por si les interesa
+Nov 11 20:38:35 <jotamjr_>	fcodiaz: RoR?
+Nov 11 20:38:36 <fcodiaz>	ademas voy a comenzar con pantallas para el prototipo
+Nov 11 20:38:45 <fcodiaz>	exacto, ruby es RoR
+Nov 11 20:38:52 <jotamjr_>	fcodiaz: también suena bien
+Nov 11 20:38:55 <fcodiaz>	python puede ser Django
+Nov 11 20:39:27 <fcodiaz>	emonge, vos no tenes tarea asignada
+Nov 11 20:39:47 <fcodiaz>	manana le paso el dato a tadeo que el responda al documento para Java
+Nov 11 20:40:07 <fcodiaz>	emonge?
+Nov 11 20:40:22 <emonge>	fcodiaz, creo que no
+Nov 11 20:41:33 <jotamjr_>	y con el esquema de la DB se modificara el existente o se creara una desde cero que sea congruente con el doc?
+Nov 11 20:41:35 <fcodiaz>	emonge, puedes hacer tu una presentacion sobre los pros y cons de las diferentes DB
+Nov 11 20:42:09 <fcodiaz>	bueno, elsimio va a modificarlo un poco
+Nov 11 20:42:15 <emonge>	fcodiaz, ok
+Nov 11 20:42:17 <fcodiaz>	por que uno no tiene las relaciones entre tablas
+Nov 11 20:42:39 <emonge>	quien me dara esa info?
+Nov 11 20:42:45 <emonge>	a mas tardar, cuando?
+Nov 11 20:43:02 <jotamjr_>	creo que nos sería de utilidad tener el .sql también
+Nov 11 20:43:07 <fcodiaz>	emonge, puedes tu trabajar en una tabla que describa las diferentes RDBMS?
+Nov 11 20:43:11 <fcodiaz>	existentes?
+Nov 11 20:43:29 <fcodiaz>	emonge, cuanto tiempo crees que sea necesario?
+Nov 11 20:44:02 <fcodiaz>	solo que elsimio ya tiene varias tareas
+Nov 11 20:44:09 <emonge>	al menos dos dias antes de la proxima reunion
+Nov 11 20:44:10 <fcodiaz>	seria bueno que eso lo hiciera cmsamour 
+Nov 11 20:44:28 <fcodiaz>	entonces emonge puedes presentarlo para el proximo jueves
+Nov 11 20:44:30 <fcodiaz>	?
+Nov 11 20:44:33 <emonge>	si
+Nov 11 20:44:37 <fcodiaz>	hecho
+Nov 11 20:45:08 <fcodiaz>	y yo voy a avisarle a cmsamour que el tiene que preparar el sql y colocar las relaciones de las tablas en el diseno existente
+Nov 11 20:45:18 <fcodiaz>	se nos queda algo mas senores?
+Nov 11 20:45:31 <fcodiaz>	algun tema que este en el aire que quieran agregar?
+Nov 11 20:45:34 <jotamjr_>	una duda que me aqueja.
+Nov 11 20:45:49 <fcodiaz>	dale
+Nov 11 20:46:03 <jotamjr_>	alguien trabajaría en el tema del diseño grafico?
+Nov 11 20:46:13 <jotamjr_>	eso vende.
+Nov 11 20:46:23 <fcodiaz>	no tenemos a nadie
+Nov 11 20:46:31 <fcodiaz>	te interesa eso?
+Nov 11 20:46:37 <fcodiaz>	yo para eso no sirvo
+Nov 11 20:46:41 <jotamjr_>	fcodiaz: /me esta nulo en eso :\
+Nov 11 20:46:48 <fcodiaz>	uta
+Nov 11 20:46:53 <jotamjr_>	a puros frameworks css me voy yo :)
+Nov 11 20:46:59 <fcodiaz>	habria que buscar a alguien que nos ayude con eso
+Nov 11 20:47:08 <jotamjr_>	si
+Nov 11 20:47:11 <fcodiaz>	por cierto alguien ha contactado a cisko o sosorios?
+Nov 11 20:48:24 <emonge>	sosorio no
+Nov 11 20:48:38 <emonge>	y cisko anda algo busy con su hijo.new
+Nov 11 20:48:46 <fcodiaz>	cierto
+Nov 11 20:48:57 <emonge>	pero le hare el recordatorio
+Nov 11 20:49:01 <emonge>	para ver si aparece el jueves
+Nov 11 20:49:12 <fcodiaz>	jotamjr_, voy a agregar lo del diseno grafico a la lista de tareas pendientes y sin duenio
+Nov 11 20:49:27 <emonge>	con el disnio ygrafico, yo podria ver que ondas
+Nov 11 20:49:39 <emonge>	puta que feo escribi
+Nov 11 20:49:47 <emonge>	con el disenio grafico, yo podria ver que ondas
+Nov 11 20:50:01 <fcodiaz>	en serio
+Nov 11 20:50:04 <fcodiaz>	logo, colores
+Nov 11 20:50:04 <emonge>	no ando tan hecho mierda como ustedes
+Nov 11 20:50:08 <emonge>	si
+Nov 11 20:50:17 <fcodiaz>	pero para esos tienes tiempo
+Nov 11 20:50:21 <fcodiaz>	no la proxima semana
+Nov 11 20:50:29 <fcodiaz>	cuando tengas algo nos lo muestras
+Nov 11 20:50:34 <emonge>	si
+Nov 11 20:50:37 <fcodiaz>	ok
+Nov 11 20:50:38 <emonge>	trabajare en ello
+Nov 11 20:50:46 <fcodiaz>	entonces te voy a poner como el duenio de esta tarea
+Nov 11 20:50:49 <fcodiaz>	en el wiki
+Nov 11 20:50:53 <fcodiaz>	algo mas senores?
+Nov 11 20:51:27 <emonge>	por mi no
+Nov 11 20:51:27 <jotamjr_>	elsimio: el googledoc se cierra con lo que tiene para este primer prototipo?
+Nov 11 20:51:32 <fcodiaz>	sino damos por concluida esta reunion
+Nov 11 20:51:55 <fcodiaz>	si jotamjr_ voy a pasar eso al wiki
+Nov 11 20:51:59 <fcodiaz>	en la lista de caracteristicas
+Nov 11 20:52:04 <elsimio>	por el momento si
+Nov 11 20:52:10 <fcodiaz>	hey por cierto los que no tienen cuenta en el github por favor
+Nov 11 20:52:15 <fcodiaz>	para agregarlos como colaboradores
+Nov 11 20:52:19 <jotamjr_>	ok!
+Nov 11 20:52:33 <emonge>	fcodiaz, adduser emonge
+Nov 11 20:52:33 <fcodiaz>	jotamjr_, tu ya estas si no me equivoco
+Nov 11 20:52:40 <fcodiaz>	emonge, es tu usuario en github
+Nov 11 20:52:44 <emonge>	si
+Nov 11 20:53:06 <fcodiaz>	listo
+Nov 11 20:53:09 <fcodiaz>	ya estas
+Nov 11 20:53:45 <emonge>	ok
+Nov 11 20:53:46 <fcodiaz>	bueno quedamos asi, voy a pasar la minuta, el transcript del chat y la agenda para la prox reunion
+Nov 11 20:54:03 <fcodiaz>	algo mas?
+Nov 11 20:54:12 <emonge>	fcodiaz added emonge to Solicont about a minute ago
+Nov 11 20:54:26 <fcodiaz>	;)
+Nov 11 20:54:29 <jotamjr_>	fcodiaz: sep
+Nov 11 20:55:11 <fcodiaz>	bueno damos por terminada la reunion si no hay nada mas en el tintero
+Nov 11 20:55:59 <emonge>	ok
+Nov 11 20:56:05 <emonge>	commit;
+Nov 11 20:56:42 <jotamjr_>	:)
