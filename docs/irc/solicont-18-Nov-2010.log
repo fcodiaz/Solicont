@@ -1,0 +1,399 @@
+**** BEGIN LOGGING AT Thu Nov 18 19:56:16 2010
+
+Nov 18 19:57:01 <fcodiaz>	saludos jovenes
+Nov 18 19:59:56 <emonge>	saludos
+Nov 18 20:00:54 *	fcodiaz is here
+Nov 18 20:00:58 <fcodiaz>	que ondas emonge 
+Nov 18 20:02:31 <fcodiaz>	tenemos quorum?
+Nov 18 20:05:07 <fcodiaz>	ya pasaron 5 minutos jovenes
+Nov 18 20:05:10 <fcodiaz>	tenemos quorum?
+Nov 18 20:05:13 <fcodiaz>	quienes estamos?
+Nov 18 20:05:39 <emonge>	creo que elsimio opto por beber
+Nov 18 20:05:51 <fcodiaz>	dijo que tenia que ir a lavar ropa al rio
+Nov 18 20:06:00 <fcodiaz>	ping jotamjr 
+Nov 18 20:06:01 <emonge>	jajaja
+Nov 18 20:06:15 <emonge>	cisko dijo que iba a venir
+Nov 18 20:06:16 <fcodiaz>	cmsamour, estara ocupado cambiando paniales
+Nov 18 20:06:22 <emonge>	[21:05:57] srwd dice:
+Nov 18 20:06:22 <emonge>	llegara al irc?
+Nov 18 20:06:22 <emonge>	[21:06:07] Cisko dice:
+Nov 18 20:06:23 <emonge>	yeap.. entro en unos minutos..
+Nov 18 20:06:43 <fcodiaz>	vostorga, devera estar atorado en alguna trabazon en el blvd del ejercito de camino de la represa
+Nov 18 20:06:58 <emonge>	ciertamente
+Nov 18 20:07:10 <fcodiaz>	que dice cisko?
+Nov 18 20:09:01 <fcodiaz>	emonge, como te fue con la tabla de las RDBMS?
+Nov 18 20:09:15 <fcodiaz>	habia algo ya en el wikipedia verdad?
+Nov 18 20:09:57 <fcodiaz>	hello?
+Nov 18 20:10:54 <jotamjr>	hoy!
+Nov 18 20:11:04 <fcodiaz>	jotamjr, como te va?
+Nov 18 20:11:35 <jotamjr>	por ahí!
+Nov 18 20:11:37 <jotamjr>	xD
+Nov 18 20:11:49 <jotamjr>	demen sus gmails para pasarles el doc de Perl + Catalyst
+Nov 18 20:11:56 <fcodiaz>	fcodiaz@gmail.com
+Nov 18 20:12:07 <fcodiaz>	jotamjr, subelo al github de solicont
+Nov 18 20:12:13 <fcodiaz>	ahi esta ya el mio
+Nov 18 20:12:20 <fcodiaz>	y tu eres colaborador
+Nov 18 20:13:27 <jotamjr>	a docs/ ?
+Nov 18 20:13:46 <fcodiaz>	si
+Nov 18 20:13:50 <jotamjr>	chivo!
+Nov 18 20:13:53 <fcodiaz>	ahi puedes subirlo
+Nov 18 20:14:45 <fcodiaz>	yo prepare el mio para Python
+Nov 18 20:14:54 <fcodiaz>	ping elsimio 
+Nov 18 20:16:07 <fcodiaz>	no se si hay suficiente quorum
+Nov 18 20:16:29 <fcodiaz>	elsimio, tenia que presentar un documento para PHP
+Nov 18 20:16:48 <emonge>	fcodiaz, si, de hecho puse el link en el wiki
+Nov 18 20:16:58 <fcodiaz>	si lo vi
+Nov 18 20:17:08 <fcodiaz>	quieres comenzar con eso, mientras vemos si aparece elsimio 
+Nov 18 20:17:15 <fcodiaz>	por que el tiene el punto 2
+Nov 18 20:17:17 <fcodiaz>	de la agenda
+Nov 18 20:17:22 <emonge>	no esta conectado elsimio
+Nov 18 20:17:28 <fcodiaz>	ping elsimio 
+Nov 18 20:17:34 <emonge>	no esta en el msn
+Nov 18 20:17:41 <fcodiaz>	ah ok,
+Nov 18 20:17:45 <fcodiaz>	bueno veamos si aparece
+Nov 18 20:18:09 <fcodiaz>	comenzamos la agenda con el punto 3 entonces
+Nov 18 20:18:18 <fcodiaz>	emonge, cual es tu opinion, diagnostico
+Nov 18 20:18:24 <fcodiaz>	con respecto a las RDBMS
+Nov 18 20:19:08 <emonge>	fcodiaz, IMHO, creo que como apuntaba vostorga la vez pasada
+Nov 18 20:19:15 <fcodiaz>	aja
+Nov 18 20:19:19 <emonge>	postgresql es lo mas adecuado
+Nov 18 20:19:41 <fcodiaz>	ok
+Nov 18 20:19:43 <emonge>	yo en lo personal no la he usado, pero los comentarios
+Nov 18 20:19:53 <emonge>	a nivel generalizado tiene mucho peso
+Nov 18 20:20:04 <emonge>	y si, doy mi voto a postgresql
+Nov 18 20:20:15 <fcodiaz>	si, de hecho yo en la compania donde trabaje anteiornente, como en la que estoy ahorita
+Nov 18 20:20:21 <fcodiaz>	postgres es la que usamos
+Nov 18 20:20:27 <fcodiaz>	y no da problemas
+Nov 18 20:20:41 <fcodiaz>	asi que por mi parte esta bien
+Nov 18 20:20:53 <fcodiaz>	jotamjr algun comentario al respecto?
+Nov 18 20:21:35 <fcodiaz>	jotamjr?
+Nov 18 20:21:42 <fcodiaz>	ping jotamjr 
+Nov 18 20:22:01 *	CiskoSV (~Cisko@190.87.18.20) has joined #solicont
+Nov 18 20:22:02 <jotamjr>	si yo en lo particular
+Nov 18 20:22:05 *	CiskoSV saluda
+Nov 18 20:22:07 <jotamjr>	he usado postgresql
+Nov 18 20:22:15 <fcodiaz>	saludos CiskoSV 
+Nov 18 20:22:17 <fcodiaz>	que ondas
+Nov 18 20:22:21 <CiskoSV>	fcodiaz: salud
+Nov 18 20:22:22 <jotamjr>	y es mucho mas robusto que MySQL
+Nov 18 20:22:23 <fcodiaz>	bienvenido
+Nov 18 20:22:28 <jotamjr>	CiskoSV: saludos!
+Nov 18 20:22:48 <CiskoSV>	jotamjr: salud
+Nov 18 20:23:03 <fcodiaz>	entonces creo que por el lado de la DB no hay mas que darle vuelta al asunto
+Nov 18 20:23:09 <emonge>	ciertamente
+Nov 18 20:23:14 <fcodiaz>	verdad?
+Nov 18 20:23:19 <jotamjr>	si, creo que esta mas que definido ya
+Nov 18 20:23:22 <fcodiaz>	ok
+Nov 18 20:23:46 <fcodiaz>	#acordado: que la DB que se usara para el proyecto es PosgreSQL
+Nov 18 20:24:09 <fcodiaz>	quien entonces se puede hacer cargo de la administracion?
+Nov 18 20:24:14 <fcodiaz>	vostorga?
+Nov 18 20:24:26 <fcodiaz>	emonge?
+Nov 18 20:24:42 <jotamjr>	yo podría ayudar
+Nov 18 20:24:52 <jotamjr>	pero parece que vostorga estaba interesado también
+Nov 18 20:25:03 <fcodiaz>	ok, ahi si no me hago cargo pues no es mi area
+Nov 18 20:25:07 <fcodiaz>	si creo
+Nov 18 20:25:30 <fcodiaz>	jotamjr, si gustas le preguntamos y si el esta de acuerdo en ser el admin esta bien contigo?
+Nov 18 20:25:42 <fcodiaz>	el dijo que podia hacer una instalacion en el mezon?
+Nov 18 20:25:43 <jotamjr>	si no hay problema
+Nov 18 20:25:46 <fcodiaz>	si no me equivoco
+Nov 18 20:25:52 <jotamjr>	yo a falta de voluntarios right now!
+Nov 18 20:26:07 <fcodiaz>	#tarea: mandar un correo a vostorga para preguntar si el puede hacerse cargo de la administracion de la DB
+Nov 18 20:26:28 <fcodiaz>	CiskoSV, algun comentario
+Nov 18 20:26:35 <emonge>	fcodiaz, vostorga queria esa tarea
+Nov 18 20:26:56 <fcodiaz>	si por eso he puesto de mandarle un correo para preguntarle si aun esta disponible para atender esa tarea
+Nov 18 20:27:04 <fcodiaz>	^^^^
+Nov 18 20:27:36 <fcodiaz>	CiskoSV, algun comentario de tu parte?
+Nov 18 20:28:45 <fcodiaz>	parece que CiskoSV esta entretenido en algo mas
+Nov 18 20:28:51 <fcodiaz>	bueno el otro punto a tratar es el 1
+Nov 18 20:28:59 <fcodiaz>	con respecto a los lenguajes de programacion
+Nov 18 20:29:21 <fcodiaz>	jotamjr, quieres decir algo al respecto de tu documento
+Nov 18 20:29:37 <jotamjr>	mmm,
+Nov 18 20:29:50 <fcodiaz>	digamos que si te preguntoL por que deberiamos hacer el proyecto en Perl+catalyst
+Nov 18 20:29:50 <jotamjr>	creo que es necesario que cada uno leamos los docs de los demas
+Nov 18 20:29:54 <fcodiaz>	que dirias
+Nov 18 20:30:10 <fcodiaz>	si asi es pero en tu opinion personal, como responderias a esa pregunta?
+Nov 18 20:30:10 <jotamjr>	primero porque perl es divertido
+Nov 18 20:30:14 <fcodiaz>	ok
+Nov 18 20:30:38 <jotamjr>	de ahí que Perl tiene una gran base de librerías para muchas cosas
+Nov 18 20:30:50 <jotamjr>	tenemos todo CPAN a nuestra disposición
+Nov 18 20:31:13 <jotamjr>	sería un tanto facil aprender PERL para la gente que viene de PHP y C
+Nov 18 20:31:22 <jotamjr>	ya que las estructuras de control son similares
+Nov 18 20:31:29 <jotamjr>	ya hablando del Framework:
+Nov 18 20:31:38 <jotamjr>	+ Sigue el patrón de diseño MVC
+Nov 18 20:31:47 <jotamjr>	+ Nos permite no reinventar la rueda
+Nov 18 20:32:01 <jotamjr>	ya que nos brinda soporte para gestión de sesiones, autenticación, autorización, etc
+Nov 18 20:32:18 <jotamjr>	+ Tiene un poderoso ORM para abstraer bases de datos relacionales
+Nov 18 20:32:33 <jotamjr>	con nuestro SGBD favorito PostgreSQL
+Nov 18 20:32:40 <jotamjr>	sigo?
+Nov 18 20:32:43 <fcodiaz>	si 
+Nov 18 20:32:44 <fcodiaz>	adelante
+Nov 18 20:32:46 <jotamjr>	jajaj
+Nov 18 20:32:55 <jotamjr>	estoy haciendo otra vez el doc :)
+Nov 18 20:33:05 <fcodiaz>	ok
+Nov 18 20:33:32 <CiskoSV>	sorry me levante a acostar a los cipotes... no comments... poniendome al dia...
+Nov 18 20:33:41 <jotamjr>	es muy al estilo RoR
+Nov 18 20:33:58 <jotamjr>	con help scripts, built in developmente server, entre otras cosas
+Nov 18 20:34:03 <jotamjr>	ademas:
+Nov 18 20:34:10 <jotamjr>	a deferencia de RoR Catalyst
+Nov 18 20:34:19 <jotamjr>	hace facil las cosas faciles y las dificiles posibles
+Nov 18 20:34:25 <fcodiaz>	RoR te refieres a ruby on rails?
+Nov 18 20:34:48 <jotamjr>	mientras que RoR hace las cosas faciles facilicimas pero las dificiles no tanto
+Nov 18 20:34:51 <jotamjr>	fcodiaz: sep
+Nov 18 20:34:56 <fcodiaz>	ok
+Nov 18 20:35:46 <fcodiaz>	algo mas?
+Nov 18 20:36:03 <jotamjr>	:s
+Nov 18 20:36:09 <jotamjr>	bueno,
+Nov 18 20:36:20 <jotamjr>	hablando de las vistas ...
+Nov 18 20:36:38 <jotamjr>	Catalyst trae diversos plugins para diferentes tipos de vistas
+Nov 18 20:36:42 <jotamjr>	por ejemplo:
+Nov 18 20:37:07 <jotamjr>	TemplateToolkit, el cual es una librería de Perl que sigue un tipo de maketación
+Nov 18 20:37:14 <jotamjr>	*maquetación
+Nov 18 20:37:28 <jotamjr>	soporte para PDF
+Nov 18 20:37:41 <jotamjr>	JSON y similares
+Nov 18 20:37:56 <jotamjr>	todo con cambios muy pequeños
+Nov 18 20:37:56 <fcodiaz>	ok
+Nov 18 20:38:09 <jotamjr>	El Modelo,
+Nov 18 20:38:40 <jotamjr>	el ORM permite abstraer tablas, filas, relaciones, etc todo automaticamente
+Nov 18 20:39:05 <jotamjr>	y luego pueden ser accesibles de la forma de objeto nativo de Perl
+Nov 18 20:39:13 <jotamjr>	tipo $foo->methodo, etc
+Nov 18 20:39:20 <jotamjr>	*metodo :)
+Nov 18 20:39:21 <fcodiaz>	aja
+Nov 18 20:39:28 <fcodiaz>	eso me parece muy bien
+Nov 18 20:39:31 <jotamjr>	lo bueno
+Nov 18 20:39:40 <jotamjr>	es que al contrario que otros ORM's
+Nov 18 20:39:52 <jotamjr>	este si se modifica el esquema de la BD
+Nov 18 20:39:58 <jotamjr>	solo se actualiza y ya
+Nov 18 20:40:06 <jotamjr>	sin mayores complicaciones sigue funcionando
+Nov 18 20:40:14 <jotamjr>	es mas hay una opción que lo hace automaticamente.
+Nov 18 20:40:27 <jotamjr>	podes cambiar SGBD y para el es lo mismo
+Nov 18 20:40:39 <jotamjr>	todo es transparente para el desarrollador y la aplicación
+Nov 18 20:40:40 <fcodiaz>	esto significa que si queres hacer un cambio en la DB "on the fly" lo puedes hacer?
+Nov 18 20:40:50 <jotamjr>	si
+Nov 18 20:40:57 <fcodiaz>	eso esta interesante
+Nov 18 20:41:02 <jotamjr>	siempre y cuando no rompas codigo claramente
+Nov 18 20:41:14 <jotamjr>	por ejemplo si tenes un controlador que busca una tabla foo
+Nov 18 20:41:16 <fcodiaz>	una pregunta, que tan usado es esta combinacion en proyectos?
+Nov 18 20:41:22 <fcodiaz>	por ejemplo alla en .sv?
+Nov 18 20:41:31 <fcodiaz>	enq ue esta trabajando la gente?
+Nov 18 20:41:42 <jotamjr>	fijate que aca dudo que se trabaje con eso
+Nov 18 20:41:59 <jotamjr>	yo lo estoy usando para una cosa de inventarios
+Nov 18 20:42:01 <fcodiaz>	podria ser el mismo caso de RoR? 
+Nov 18 20:42:04 <fcodiaz>	que tanto se usa alla?
+Nov 18 20:42:09 <jotamjr>	fmmm puede ser fijate
+Nov 18 20:42:26 <jotamjr>	yo he visto muchos frameworks en java aca
+Nov 18 20:42:32 <jotamjr>	como struts, jsf y esos
+Nov 18 20:42:33 <fcodiaz>	en lo que yo estaba preparando mi documento
+Nov 18 20:42:41 <fcodiaz>	me encontre con comentarios como por ejemplo
+Nov 18 20:42:45 <CiskoSV>	fcodiaz: creo que se esta usando un poco mas RoR....  aunque lo que mas se esta usando es Java...
+Nov 18 20:42:52 <fcodiaz>	lenguajes como Python o Ruby, que son bastante similares
+Nov 18 20:43:29 <fcodiaz>	y que programaticamente una linea de codigo en uno de estos es como 4 en java o 6 en C/C++
+Nov 18 20:43:41 <jotamjr>	CiskoSV: si RoR se utiliza mas que Catalyst aca
+Nov 18 20:43:43 <fcodiaz>	no son tan usados en el ambiente empresarial para sistemas 
+Nov 18 20:43:54 <fcodiaz>	al contrario es mas Java y .Net los que se usan
+Nov 18 20:44:00 <fcodiaz>	como dice CiskoSV 
+Nov 18 20:44:09 <jotamjr>	si
+Nov 18 20:44:39 <CiskoSV>	pensemos desde el punto de vista del usuario final... que es mas facil de dejar instalado?
+Nov 18 20:44:47 <fcodiaz>	pero igual aqui la idea es seleccionar la mejor opccion y si Perl Catalyst la ofrece, creo que vale la pena ver que nos brinda
+Nov 18 20:45:01 <emonge>	bueno, sin duda jotamjr -hoy por hoy- programara solicont en perl
+Nov 18 20:45:11 <emonge>	porque le resulta divertido
+Nov 18 20:45:11 <fcodiaz>	emonge, algun comentario, tu no tenias asignado ningun lenguaje, pero alguna opinion al respecto?
+Nov 18 20:45:16 <fcodiaz>	sobre perl y otro lenguaje?
+Nov 18 20:45:17 <fcodiaz>	java?
+Nov 18 20:45:30 <emonge>	mi opcion fue php
+Nov 18 20:45:35 <emonge>	pero si tenia una pregunta
+Nov 18 20:45:43 <emonge>	jotamjr, que tal va perl+ajax?
+Nov 18 20:45:55 <fcodiaz>	muy buena pregunta
+Nov 18 20:46:26 <jotamjr>	fijate que yo he usado ajax pero con frameworks de javascript
+Nov 18 20:46:32 <jotamjr>	tal com jquery y protoype
+Nov 18 20:46:42 <jotamjr>	pero para responder, Catalyst soporta REST
+Nov 18 20:47:07 <jotamjr>	soportando diversos formatos en las respuestas
+Nov 18 20:47:45 <emonge>	(Representational State Transfer)
+Nov 18 20:48:09 <jotamjr>	exacto
+Nov 18 20:48:15 <emonge>	digo esto, porque desde que se piensa en solicont
+Nov 18 20:48:23 <emonge>	como una interfaz web
+Nov 18 20:48:55 <emonge>	hay que considerar lo fancy que debe ser en su momento
+Nov 18 20:48:59 <jotamjr>	si claro,
+Nov 18 20:49:07 <jotamjr>	como dije unos días atras
+Nov 18 20:49:18 <jotamjr>	la imagen vende para bien o para mal
+Nov 18 20:49:48 <jotamjr>	yo en AJAX apenas este año he comenzado a trabajar
+Nov 18 20:50:00 <emonge>	jotamjr, crees que las opciones que presentas con Perl, responderian a las nececidades funcionales y visuales de un sistema moderno?
+Nov 18 20:50:23 <jotamjr>	pero al menos con jquery he hecho unas pajas que no hubiera podido hacerlas hace un año
+Nov 18 20:50:31 <emonge>	claro
+Nov 18 20:50:33 <jotamjr>	emonge: con los conocimiento SI
+Nov 18 20:50:39 <emonge>	jotamjr, ok
+Nov 18 20:50:45 <emonge>	-solamente-
+Nov 18 20:51:27 <fcodiaz>	ok
+Nov 18 20:51:51 <fcodiaz>	bueno jotamjr pon todo en el documento y luego hacemos una tabla para evaluar lo que se ha puesto y decidimos
+Nov 18 20:52:08 <jotamjr>	si ya subi un doc
+Nov 18 20:52:15 <fcodiaz>	en mi caso a mi me toco Python
+Nov 18 20:52:32 <fcodiaz>	me habria gustado termianr el de ruby, pero puedo ver si lo termino para el finde
+Nov 18 20:52:45 <fcodiaz>	dado que aun hay otros lenguajes pendientes como son PHP y Java
+Nov 18 20:52:59 <fcodiaz>	Python es un lenguaje de alto nivel
+Nov 18 20:53:13 <fcodiaz>	con mucha orientacion a la programacion basada en objetos
+Nov 18 20:53:22 <fcodiaz>	se puede trabajar con ellos o sin ellos
+Nov 18 20:53:38 <fcodiaz>	la libreria, no sabria decir si es tan o igual de extensa como Perl
+Nov 18 20:53:57 <fcodiaz>	pero si hacen un apt-cache search python
+Nov 18 20:54:11 <fcodiaz>	veran que hay una gran cantidad de modulos disponibles para casi cualquier cosa imaginable
+Nov 18 20:54:29 <fcodiaz>	la curva de aprendizaje del lenguaje es de unas 2 semanas
+Nov 18 20:54:39 <fcodiaz>	lenguaje + librerias basicas
+Nov 18 20:54:56 <fcodiaz>	luego un poco mas de tiempo para libreraias mas especializadas o frameworks
+Nov 18 20:55:15 <fcodiaz>	tiene soporte para RDBMS, web services (rest o soap)
+Nov 18 20:55:34 <fcodiaz>	Unit Test, entre otros
+Nov 18 20:55:45 <fcodiaz>	frameworks hay varios
+Nov 18 20:55:55 <fcodiaz>	los mas polulares son Turbo Gears y Django
+Nov 18 20:56:45 <fcodiaz>	al igual que Catalyst, Django tiene soporte para las ultimas tecnologias, esta basado tambien en el modelo MVC
+Nov 18 20:56:56 <fcodiaz>	tiene soporte para ORM mediante el lenguaje
+Nov 18 20:57:17 <fcodiaz>	soporte para objetos Json, XML, asi como Ajax
+Nov 18 20:57:48 <fcodiaz>	es un lenguaje dinamico, no compilado
+Nov 18 20:58:09 <fcodiaz>	su popularidad esta solo por debajo de lenguajes como C, PHP,java y Javascript
+Nov 18 20:58:38 <fcodiaz>	basicamente, un resumen del documento
+Nov 18 20:59:09 <fcodiaz>	comentarios?
+Nov 18 20:59:10 <fcodiaz>	preguntas?
+Nov 18 21:00:03 <jotamjr>	de mi parte nada
+Nov 18 21:00:06 <fcodiaz>	BTW, tan bien es divertido programar en Python
+Nov 18 21:00:08 <emonge>	por mi todo bien, creo que despues de php, python es lo que mas me agrada
+Nov 18 21:00:17 <emonge>	:)
+Nov 18 21:00:24 <jotamjr>	xD
+Nov 18 21:00:29 <fcodiaz>	y es dificil ofuscar el codigo en Python dado que es bien estricto en cuanto a indentacion del codigo
+Nov 18 21:00:37 <emonge>	seeee
+Nov 18 21:00:44 <jotamjr>	aburrido :(
+Nov 18 21:00:47 <emonge>	sumamente estricto
+Nov 18 21:00:52 <CiskoSV>	XD
+Nov 18 21:00:53 <fcodiaz>	lo cual lo hace elegante y facil de dar mantenimiento
+Nov 18 21:00:56 <emonge>	22:00 < jotamjr> aburrido :(
+Nov 18 21:01:04 <emonge>	eso es aprendido de esteban
+Nov 18 21:01:06 <jotamjr>	si por lo de arduino estoy empezando a usar python
+Nov 18 21:01:14 <jotamjr>	y se parece mucho a yml
+Nov 18 21:01:30 <fcodiaz>	buen punto, ya habremos dos que sabemos python y otro que muestra interes :D
+Nov 18 21:01:33 <jotamjr>	que si le das un tab en vez de espacios ya se esta quejando
+Nov 18 21:01:49 <jotamjr>	por ahí lei hoy
+Nov 18 21:01:51 <CiskoSV>	fcodiaz: yo igual siempre he querido aprender...
+Nov 18 21:02:03 <jotamjr>	que es dificil querer compara herramientas
+Nov 18 21:02:12 <jotamjr>	tales como es mejor el desarmador o el martillo?
+Nov 18 21:02:39 <jotamjr>	la cuestión es saber usar las ondas y encontrar gente que también le guste
+Nov 18 21:02:45 <fcodiaz>	CiskoSV, tambien esta a favor :D
+Nov 18 21:02:52 <fcodiaz>	pero seria bueno ver todos los puntos de vista
+Nov 18 21:02:55 <jotamjr>	fijate en el ejemplo que puse en la tarde
+Nov 18 21:03:06 <fcodiaz>	que tengamos todos los documentos
+Nov 18 21:03:12 <jotamjr>	para la chava C solo servía para leer caracteres :)
+Nov 18 21:03:21 <fcodiaz>	QUE?
+Nov 18 21:03:29 <fcodiaz>	esta loca o que?
+Nov 18 21:03:37 <jotamjr>	y usar archivos de texto nada mas
+Nov 18 21:03:41 <fcodiaz>	ja!
+Nov 18 21:03:46 <jotamjr>	:)
+Nov 18 21:03:57 <jotamjr>	las enseñanzas de la UES!
+Nov 18 21:04:01 <fcodiaz>	uta
+Nov 18 21:04:08 <fcodiaz>	bueno
+Nov 18 21:04:18 <fcodiaz>	elsimio, tenia asignado el punto 2 de la agenda
+Nov 18 21:04:27 <jotamjr>	no se porque pero creo que esa onda va a terminar siendo en PHP
+Nov 18 21:04:29 <fcodiaz>	que es un sitio que le han comentado que tiene estandares
+Nov 18 21:04:43 <fcodiaz>	de proyectos similares al nuestro y que son para el gob de .us
+Nov 18 21:04:52 <fcodiaz>	que las companias siguen esos estandares para desarrollo de aps
+Nov 18 21:05:10 <jotamjr>	también sería bueno que le dieramos unas leidas a las NIIF y NIC's
+Nov 18 21:05:18 <jotamjr>	especialmente en el formato de reportes
+Nov 18 21:05:23 <fcodiaz>	so far va Perl o Python, a mi me gustaria que fuese ya sea Python o RoR
+Nov 18 21:06:13 <fcodiaz>	bueno, al menos tenemos lo de la DB ya listo
+Nov 18 21:06:17 <emonge>	creo que hay muchisimo trabajo con el core
+Nov 18 21:06:26 <emonge>	luego se pueden ver los reportes
+Nov 18 21:06:51 <fcodiaz>	emonge, utilerias para el proyecto
+Nov 18 21:06:53 <jotamjr>	, estructuración de inventarios,
+Nov 18 21:07:17 <jotamjr>	y conceptos como Partida Dobles, Asientos Diarios, etc...
+Nov 18 21:07:39 <fcodiaz>	hey algun link para contabilidad que recomienden
+Nov 18 21:07:40 <fcodiaz>	?
+Nov 18 21:07:55 <fcodiaz>	para ponerlo en referencias 
+Nov 18 21:08:05 <jotamjr>	ni idea.
+Nov 18 21:08:08 <emonge>	npi
+Nov 18 21:08:08 <fcodiaz>	sino alguien tiene algun comentario
+Nov 18 21:08:12 <fcodiaz>	idea loca
+Nov 18 21:08:15 <fcodiaz>	sugerencia
+Nov 18 21:08:17 <emonge>	creo que CiskoSV anda mas en eso
+Nov 18 21:08:18 <fcodiaz>	critica
+Nov 18 21:08:25 <fcodiaz>	CiskoSV, 
+Nov 18 21:08:28 <fcodiaz>	comentarios?
+Nov 18 21:08:50 <CiskoSV>	hmmmm creo que para esa parte seria de contar con una asesoria de algun contador en si...
+Nov 18 21:08:54 <fcodiaz>	emonge, tu estas en lo del ecsl verdad?
+Nov 18 21:08:56 <CiskoSV>	o mejor aun.. .varios contadores
+Nov 18 21:09:10 <emonge>	fcodiaz, si, alli de metido
+Nov 18 21:09:19 <fcodiaz>	para julio?
+Nov 18 21:09:23 <emonge>	si
+Nov 18 21:09:31 <fcodiaz>	CiskoSV, me parece, alguien que conozcas que nos pueda asesorar
+Nov 18 21:09:51 <fcodiaz>	emonge, jotamjr, CiskoSV que tal si la meta es lanzar solicont para el ecsl?
+Nov 18 21:09:53 <CiskoSV>	si... tengo dos contadores muy buenos que bien pueden servir para guiarnos... y para ir probando
+Nov 18 21:09:59 <fcodiaz>	hacer la presentacion oficial ahi del proyecto
+Nov 18 21:10:07 <CiskoSV>	fcodiaz: cuando es????
+Nov 18 21:10:14 <emonge>	fcodiaz, seria interesante
+Nov 18 21:10:16 <fcodiaz>	Julio 2011
+Nov 18 21:10:23 <CiskoSV>	me parece...
+Nov 18 21:10:24 <fcodiaz>	que tal se escucha la idea?
+Nov 18 21:10:26 <jotamjr>	fcodiaz: pues en el ECSL de este año
+Nov 18 21:10:33 <jotamjr>	salimos de bocas rotas
+Nov 18 21:10:39 <fcodiaz>	tenemos que el primer prototipo lo terminamos para Feb-Mar del 2011
+Nov 18 21:10:50 <jotamjr>	diciendo que ibamos a promover no solo el uso sino de desarrollo de SL
+Nov 18 21:10:53 <fcodiaz>	seria como un beta en esa oportunidad
+Nov 18 21:11:08 <jotamjr>	por lo tanto SoliTimo nos ayudaría a cumplir un punto del acuerdo
+Nov 18 21:11:23 <fcodiaz>	perfecto
+Nov 18 21:11:31 <jotamjr>	creo que adelantaríamos a el CA-4 en ese aspecto
+Nov 18 21:11:34 <fcodiaz>	yo me comprometo a seguirles ayudando
+Nov 18 21:11:52 <fcodiaz>	mi esposa me hace mala cara por que estoy aqui sentado sin hacer nada, segun ella, pero aqui estoy
+Nov 18 21:12:09 <CiskoSV>	fcodiaz: todos los casados pasamos sin hacer nada frente a la compu... XD
+Nov 18 21:12:10 *	leprosys (~leprosys@unaffiliated/leprosys) has joined #solicont
+Nov 18 21:12:16 <fcodiaz>	CiskoSV++
+Nov 18 21:12:23 <jotamjr>	jaja
+Nov 18 21:12:25 <CiskoSV>	fcodiaz: o peor aun... solo jugando..
+Nov 18 21:12:28 <fcodiaz>	asi es
+Nov 18 21:12:35 <fcodiaz>	somo mal comprendidos
+Nov 18 21:12:40 <fcodiaz>	XD
+Nov 18 21:12:47 <fcodiaz>	bueno, esa es mi propuesta
+Nov 18 21:12:51 <CiskoSV>	:( suele suceder...
+Nov 18 21:13:00 <fcodiaz>	estamos jovenes
+Nov 18 21:13:17 <fcodiaz>	ha por cierto, el otro jueves si no prometo estar por aca
+Nov 18 21:13:34 <fcodiaz>	aca se celebra Thansgiving y yo tengo invitados en mi casa
+Nov 18 21:13:40 <CiskoSV>	estamos aca todos los jueves o todos los dias_
+Nov 18 21:13:41 <CiskoSV>	?
+Nov 18 21:13:42 <fcodiaz>	podriamos mover la reunion?
+Nov 18 21:13:54 <fcodiaz>	CiskoSV, todos los juerves
+Nov 18 21:13:54 <jotamjr>	fcodiaz: puede ser
+Nov 18 21:14:12 <fcodiaz>	asi los que aun les falta por entregar documento lo hacemos la prox semana
+Nov 18 21:14:20 <fcodiaz>	les parece jovenes?
+Nov 18 21:14:31 <fcodiaz>	que tal el martes de la otra semana?
+Nov 18 21:14:39 <emonge>	esta bien
+Nov 18 21:14:41 <fcodiaz>	para completar el punto 1 y el 2
+Nov 18 21:14:45 <fcodiaz>	de la agenda de ahora
+Nov 18 21:14:59 <fcodiaz>	y damos por terminada la reunion, a menos que alguien tenga algo mas en el tintero
+Nov 18 21:15:31 <emonge>	yo no tengo nada mas que agregar
+Nov 18 21:15:32 <fcodiaz>	seria bueno que ya para Dic sepamos en que vamos a programar
+Nov 18 21:15:41 <fcodiaz>	jotamjr, algo mas?
+Nov 18 21:15:44 <fcodiaz>	algun comentario?
+Nov 18 21:15:58 <jotamjr>	no
+Nov 18 21:16:01 <fcodiaz>	CiskoSV, 
+Nov 18 21:16:10 <CiskoSV>	nop...
+Nov 18 21:16:24 <fcodiaz>	CiskoSV: https://github.com/fcodiaz/Solicont
+Nov 18 21:16:33 <fcodiaz>	ahi hay mas info y lo que estamos haciendo por el momento
+Nov 18 21:16:37 <fcodiaz>	leprosys, 
+Nov 18 21:16:40 <fcodiaz>	algun comentario
+Nov 18 21:17:11 <fcodiaz>	sino damos por terminada esta reunion
+Nov 18 21:17:14 <CiskoSV>	fcodiaz: copiado
+Nov 18 21:17:18 <leprosys>	no yo primera vez que entro
+Nov 18 21:17:22 <jotamjr>	ok!
+Nov 18 21:17:31 <jotamjr>	#ban leprosys xD
+Nov 18 21:17:34 <fcodiaz>	entonces, pasare la minuta en el sitio de github
+Nov 18 21:17:38 <fcodiaz>	asi como la transcripcion del chat
+Nov 18 21:17:42 <fcodiaz>	xD
+Nov 18 21:17:59 <fcodiaz>	y si les parece la prox reunion es el martes de la otra semana
+Nov 18 21:18:09 <fcodiaz>	pues ni no, ni elsimio (creo) vamos a poder estar por aca
+Nov 18 21:18:17 <fcodiaz>	dado que aca es dia festivo
+Nov 18 21:18:33 <jotamjr>	si, a mi me parece bien no se que dicen los demas?
+Nov 18 21:18:39 <CiskoSV>	fcodiaz: martes!
+Nov 18 21:18:50 <fcodiaz>	emonge, creo que dijo que estaba bien
+Nov 18 21:18:56 <fcodiaz>	asi que asi quedamos
+Nov 18 21:19:05 <emonge>	si
+Nov 18 21:19:06 <fcodiaz>	bueno, un gusto jovenes
+Nov 18 21:19:14 <fcodiaz>	seguimos hablando y que pasen buenas noches
+Nov 18 21:19:17 <emonge>	igualmente
+Nov 18 21:19:22 <fcodiaz>	terminamos la reunion
+Nov 18 21:19:27 <jotamjr>	ok!
+Nov 18 21:19:30 <CiskoSV>	=mente
+Nov 18 21:19:37 <fcodiaz>	#commit
+Nov 18 21:25:08 *	You have left channel #solicont ("Leaving")
+**** ENDING LOGGING AT Thu Nov 18 21:25:08 2010
+
