@@ -1,0 +1,365 @@
+**** BEGIN LOGGING AT Tue Nov 23 19:56:21 2010
+
+Nov 23 19:58:03 <fcodiaz>	ping all
+Nov 23 20:00:56 <jotamjr>	pong
+Nov 23 20:02:17 <fcodiaz>	hey
+Nov 23 20:02:20 <fcodiaz>	saludos jotamjr 
+Nov 23 20:02:26 <fcodiaz>	siempre puntual eh!
+Nov 23 20:02:43 <fcodiaz>	quienes mas estamos?
+Nov 23 20:02:58 <jotamjr>	jaja
+Nov 23 20:03:30 <jotamjr>	ya en unos 5-10 van a caer
+Nov 23 20:03:55 <jotamjr>	fcodiaz: y los lenguajes que no tengan docs aún, que va a pasar con ellos?
+Nov 23 20:04:16 <fcodiaz>	no se
+Nov 23 20:04:23 <fcodiaz>	creo que debe ser desicion de todos que hacemos
+Nov 23 20:04:37 <fcodiaz>	creo que debemos acordar un metodo de seleccion 
+Nov 23 20:04:45 <fcodiaz>	y no descartar aquellos que no presentaron
+Nov 23 20:05:17 <fcodiaz>	como te va con el arduino jotamjr ?
+Nov 23 20:05:27 <fcodiaz>	mientras hacemos tiempo que aparezcan mas
+Nov 23 20:06:14 <jotamjr>	pues por ahí haciendo unos scripts en perl :)
+Nov 23 20:06:26 <fcodiaz>	ya dejaste python
+Nov 23 20:06:28 <jotamjr>	el otro chamaco esta haciendo graficas con libmatplot
+Nov 23 20:06:33 <fcodiaz>	ok
+Nov 23 20:06:35 <jotamjr>	fcodiaz: ergchh
+Nov 23 20:06:40 <jotamjr>	siempre se me va :(
+Nov 23 20:06:45 <fcodiaz>	y que estan haciendo con el arduino
+Nov 23 20:06:46 <jotamjr>	si seguimos con python xD
+Nov 23 20:06:51 <jotamjr>	es la costumbre
+Nov 23 20:06:55 <fcodiaz>	ah!
+Nov 23 20:06:59 <fcodiaz>	no es perl, es python
+Nov 23 20:07:14 <fcodiaz>	ping elsimio , emonge 
+Nov 23 20:07:15 <jotamjr>	si :S
+Nov 23 20:07:18 <fcodiaz>	ok
+Nov 23 20:07:44 <fcodiaz>	jotamjr, como crees que seria un buen metodo de seleccion del lenguaje
+Nov 23 20:07:49 <fcodiaz>	ahora que tenemos los docs de ellos
+Nov 23 20:07:58 <fcodiaz>	los leemos y votamos por el que nos parezca
+Nov 23 20:08:09 <jotamjr>	uff pues es un tema dificil
+Nov 23 20:08:18 *	fcodiaz cree que en ese caso cada quien votaria por el favorito
+Nov 23 20:08:22 <jotamjr>	pero creo que deberíamos de tener criterios de decisión
+Nov 23 20:08:32 <fcodiaz>	esa era la idea del documento
+Nov 23 20:08:42 <jotamjr>	facilidad, aplicabilidad y escalabilidad
+Nov 23 20:08:47 <fcodiaz>	que cada quien se forme el criterio en base a lo que se establecio en el documento
+Nov 23 20:09:01 <jotamjr>	si,
+Nov 23 20:09:11 <fcodiaz>	y de ahi que votemos, pero que cada quien no puede votar por su lenguaje propuesto
+Nov 23 20:09:14 <fcodiaz>	que opinas?
+Nov 23 20:09:16 <jotamjr>	ya con los docs se tiene una idea basica de como podría funcionar la cosa
+Nov 23 20:09:35 <fcodiaz>	yo creo que si
+Nov 23 20:09:38 <jotamjr>	si claro
+Nov 23 20:09:46 <fcodiaz>	te parece la idea?
+Nov 23 20:09:54 <fcodiaz>	es una opcion
+Nov 23 20:09:57 <jotamjr>	si,
+Nov 23 20:10:00 <fcodiaz>	otra es que nos pongamos de acuerdo
+Nov 23 20:10:04 <jotamjr>	aunque sera rondas de 1 a 1
+Nov 23 20:10:07 <fcodiaz>	en base a lo que leimos 
+Nov 23 20:10:12 <jotamjr>	o el que tenga mas votos?
+Nov 23 20:10:16 <fcodiaz>	asi es
+Nov 23 20:10:22 <fcodiaz>	como?
+Nov 23 20:10:29 <jotamjr>	uno contra todos
+Nov 23 20:10:41 <jotamjr>	el que le gane a mas ese podría ser el idoneo
+Nov 23 20:10:55 <fcodiaz>	y votamos todos
+Nov 23 20:11:02 <fcodiaz>	por un lenguaje
+Nov 23 20:11:08 <jotamjr>	algo así
+Nov 23 20:11:16 <fcodiaz>	habra que definir
+Nov 23 20:11:28 <fcodiaz>	ok la pregunta, ahora que tenemos el lenguaje (suponiendo que ya lo tenemos)
+Nov 23 20:11:31 <fcodiaz>	tenemos la DB
+Nov 23 20:11:43 <fcodiaz>	falta trabajar en el diseno
+Nov 23 20:11:45 <fcodiaz>	las relaciones
+Nov 23 20:11:56 <fcodiaz>	es el punto 3 de la agenda
+Nov 23 20:12:20 <fcodiaz>	si es que tenemos quorum
+Nov 23 20:12:24 <jotamjr>	ajam
+Nov 23 20:13:08 *	CiskoSV (~CiskoSV@190.87.18.20) has joined #solicont
+Nov 23 20:13:28 <fcodiaz>	ya le hale la oreja a elsimio en #linux.org.sv
+Nov 23 20:13:36 <jotamjr>	jaja si ya vi xD
+Nov 23 20:13:40 <fcodiaz>	CiskoSV, saludos
+Nov 23 20:13:48 *	CiskoSV saluda
+Nov 23 20:13:54 <jotamjr>	CiskoSV: saludos!
+Nov 23 20:14:09 <fcodiaz>	por aca la pre-discusion antes de la reunion
+Nov 23 20:14:22 <CiskoSV>	jajaj o
+Nov 23 20:14:22 <CiskoSV>	k
+Nov 23 20:14:42 <fcodiaz>	yo creo que comenzamos con el punto 1 de la agenda
+Nov 23 20:14:49 <fcodiaz>	https://github.com/fcodiaz/Solicont/wiki/Agenda-proxima-reunion-y-Lista-de-reuniones-pasadas
+Nov 23 20:14:55 <fcodiaz>	agenda ^^^^^^^^
+Nov 23 20:15:11 <fcodiaz>	el punto 1 es sobre los documentos para la seleccion del lenguaje a utilizar
+Nov 23 20:15:30 <fcodiaz>	ya tenemos documentos de evaluacion para perl, python, php y ruby
+Nov 23 20:15:43 <fcodiaz>	creo que el que se esta quedando es Java, algun otro?
+Nov 23 20:16:05 <fcodiaz>	pero no por ello creo que debamos excluirlo del sistema de seleccion, que opinan?
+Nov 23 20:16:43 <jotamjr>	entonces se optaría por dar mas tiempo?
+Nov 23 20:16:49 <fcodiaz>	no, creo
+Nov 23 20:17:03 <fcodiaz>	a mi me gustaria definir esto ya para fines del mes
+Nov 23 20:17:12 <fcodiaz>	ya tenemos los documentos de 4 lenguajes
+Nov 23 20:17:23 <fcodiaz>	la idea ahora seria decidir que dia votamos 
+Nov 23 20:17:26 <fcodiaz>	o seleccionamos
+Nov 23 20:17:32 <elsimio>	aja
+Nov 23 20:17:33 <fcodiaz>	o dedocraticamente nos ponemos de acuerdo
+Nov 23 20:17:39 <elsimio>	puta y ya es hora?
+Nov 23 20:17:40 <fcodiaz>	y ya no mas vuelta al asunto
+Nov 23 20:17:55 *	fcodiaz ve a elsimio perdido en el tiempo y el espacio
+Nov 23 20:18:20 <jotamjr>	@_@
+Nov 23 20:18:39 <fcodiaz>	asi que para cuando decidimos?
+Nov 23 20:18:43 <elsimio>	el q cosa
+Nov 23 20:18:48 <fcodiaz>	una vez que hayamos leido los documentos
+Nov 23 20:18:53 <fcodiaz>	elsimio, sobre el lenguaje
+Nov 23 20:19:03 <fcodiaz>	ya tenemos docs para php, perl, python y ruby
+Nov 23 20:19:06 <elsimio>	ya tenemos la base?
+Nov 23 20:19:09 <fcodiaz>	ya
+Nov 23 20:19:15 <fcodiaz>	postgresql
+Nov 23 20:19:27 <fcodiaz>	https://github.com/fcodiaz/Solicont/wiki/Noviembre-18-2010
+Nov 23 20:19:30 <elsimio>	digo
+Nov 23 20:19:36 <fcodiaz>	minuta reunion pasada ^^^^^^^^^
+Nov 23 20:19:41 <elsimio>	el ER
+Nov 23 20:19:45 <elsimio>	una base talegona
+Nov 23 20:19:56 <jotamjr>	es un punto de la agenda elsimio
+Nov 23 20:20:01 <elsimio>	q cuando estemos ya programando no digamos "puta esto salia mas facil haberlo hecho con aquel lenguaje"
+Nov 23 20:20:07 <jotamjr>	"talegona" no creo
+Nov 23 20:20:08 <fcodiaz>	asi es
+Nov 23 20:20:30 <fcodiaz>	una vez seleccionamos, nos metemos en el huevo todos
+Nov 23 20:20:47 <fcodiaz>	y aceptamos que fue consenso o el metodo que usamos para seleccionar
+Nov 23 20:21:24 <fcodiaz>	estamos jovenes
+Nov 23 20:21:34 <fcodiaz>	asi que para cuando decidimos lo del lenguaje
+Nov 23 20:21:41 <fcodiaz>	cuanto tiempo para leer los documentos que tenemos
+Nov 23 20:21:44 <fcodiaz>	y decidimos
+Nov 23 20:22:00 <elsimio>	hay q leerlos
+Nov 23 20:22:01 <elsimio>	todos
+Nov 23 20:22:07 <elsimio>	luego hacer un balance
+Nov 23 20:22:11 <fcodiaz>	para formarnos un criterio si
+Nov 23 20:22:20 *	darkness51 (~quassel@190.150.21.117) has joined #solicont
+Nov 23 20:22:29 <elsimio>	X cantidad de programadores Y lenguaje
+Nov 23 20:23:05 <fcodiaz>	votacion?
+Nov 23 20:23:08 <fcodiaz>	por votacion?
+Nov 23 20:23:23 <elsimio>	por mi si pero no hoy
+Nov 23 20:23:27 <fcodiaz>	asi es
+Nov 23 20:23:29 <fcodiaz>	no ahora
+Nov 23 20:23:34 <elsimio>	yo preferiria base primero, luego lenguaje
+Nov 23 20:23:46 <elsimio>	no podemos pensar en una pantalla si primero no hemos pensado en los procesos
+Nov 23 20:23:57 <fcodiaz>	yo creo que cualquiera de los lenguajes que tenemos es capaz de soportar postgreSQL
+Nov 23 20:24:10 <fcodiaz>	la base ya la tenemos
+Nov 23 20:24:20 <fcodiaz>	y eso es un factor importante
+Nov 23 20:24:48 <fcodiaz>	asi que para cuando votamos, proxima reunion?
+Nov 23 20:25:01 <fcodiaz>	asi tenemos una semana para leer los documentos
+Nov 23 20:25:08 <jotamjr>	podría ser
+Nov 23 20:25:09 <fcodiaz>	y formarnos un criterio
+Nov 23 20:25:15 <fcodiaz>	elsimio, te parece?
+Nov 23 20:25:15 <CiskoSV>	me parece
+Nov 23 20:25:27 <jotamjr>	en eso damos chance a los que faltan aún
+Nov 23 20:25:29 <elsimio>	si
+Nov 23 20:25:31 <fcodiaz>	ok
+Nov 23 20:25:43 <fcodiaz>	entonces es tarea de todos leer los documentos existentes
+Nov 23 20:25:50 <fcodiaz>	elsimio, tu aun no tienes cuenta en github
+Nov 23 20:25:54 <fcodiaz>	CiskoSV, tu tienes?
+Nov 23 20:25:57 <elsimio>	no
+Nov 23 20:26:13 <CiskoSV>	tampoco
+Nov 23 20:26:46 <fcodiaz>	lo mas facil es que creen una cuenta en el github y les doy acceso como colaboradores
+Nov 23 20:27:00 *	CiskoSV creandola
+Nov 23 20:27:00 <fcodiaz>	sino me avisan para mandarles por correo los documentos
+Nov 23 20:27:02 <elsimio>	:-/
+Nov 23 20:27:10 <fcodiaz>	ok estamos entonces con el punto 1
+Nov 23 20:27:23 <fcodiaz>	todos leermos los documentos para formarnos un criterio
+Nov 23 20:27:32 <jotamjr>	commit
+Nov 23 20:27:34 <fcodiaz>	y la votacion es el proximo martes o jueves?
+Nov 23 20:27:38 <elsimio>	jueves
+Nov 23 20:27:49 <fcodiaz>	ok proximo jueves, 2?
+Nov 23 20:27:56 <fcodiaz>	si
+Nov 23 20:27:59 <fcodiaz>	2 de diciembre
+Nov 23 20:28:06 <elsimio>	si dios lo permite
+Nov 23 20:28:08 <fcodiaz>	algo mas en este punto?
+Nov 23 20:28:12 <fcodiaz>	elsimio, asi es 
+Nov 23 20:28:22 <fcodiaz>	alguien quiere aportar algo mas, antes de pasar al punto 2?
+Nov 23 20:28:42 <darkness51>	han contemplado python como lenguaje??
+Nov 23 20:28:48 <fcodiaz>	darkness51, si
+Nov 23 20:28:58 <fcodiaz>	por el momento tenemos Php, Perl, Python y Ruby
+Nov 23 20:29:12 <darkness51>	fcodiaz: si se usa python, podriamos usar django
+Nov 23 20:29:36 <fcodiaz>	los documentos de evaluacion estan en: https://github.com/fcodiaz/Solicont/tree/master/docs/
+Nov 23 20:29:54 <fcodiaz>	asi es darkness51, ahi en el documento sobre Python se menciona Django, asi como tambien turbogears
+Nov 23 20:30:06 <fcodiaz>	pero creo que la opcion en caso de python seria django
+Nov 23 20:30:15 <fcodiaz>	alguien mas, sino pasamos al punto 2
+Nov 23 20:30:26 <fcodiaz>	elsimio, tu turno
+Nov 23 20:30:34 <elsimio>	ok
+Nov 23 20:30:43 <fcodiaz>	elsimio discutira sobre los contenidos en The Open Application Group http://www.oagi.org/dnn2/, al parecer es un estandar de desarrollo de aplicaciones muy adoptado por companias en Estados Unidos y que desarrollan aplicaciones para el gobierno.
+Nov 23 20:30:54 <fcodiaz>	adelante elsimio 
+Nov 23 20:31:07 <elsimio>	platicando un dia con un amigo programador, muy buen programador en java, amigo de xtecuan
+Nov 23 20:31:21 <elsimio>	le comentaba la iniciativa (frustrada) de solicont
+Nov 23 20:31:51 <elsimio>	y me dijo que para q estar inventando cosas si ya existe webservices o cosas de las cuales podemos retomar mucho y tener una base
+Nov 23 20:32:18 <elsimio>	el trabaja en una empresa donde programan, la cual es contratada por el gobierno de usa
+Nov 23 20:32:40 <elsimio>	y aqui el gobierno igual q como en El Salvador hacen licitaciones, transacciones, etc
+Nov 23 20:32:55 <elsimio>	aqui siguen un estandar, no se si en El Salvador, me refiero a la parte financiera-contable
+Nov 23 20:33:28 <elsimio>	y si una empresa por mucho que haya ganado una licitacion no sigue ese estandar, me refiero a requisitos de software por gusto
+Nov 23 20:33:34 <elsimio>	no puede hacer negocio con el gobierno de usa
+Nov 23 20:33:42 <elsimio>	hay algo q se llama open application group
+Nov 23 20:34:30 <elsimio>	el cual fue creado por empresas grandes de usa en establecer un estandar asi como el IEEE y de paso cumplir normas internacionales de contabilidad para tambien no dejar escapar los biz
+Nov 23 20:35:04 <elsimio>	antes lo unico que cumplia eso ya "out of the box" era/es el SAP
+Nov 23 20:35:11 <elsimio>	mucho ya lo conocen o han oido mencionar
+Nov 23 20:35:17 <elsimio>	una inversion de $50K para arriba casi
+Nov 23 20:35:55 <elsimio>	entonces empresas como ibm, oracle, openranger y otras adoptaron eso que hasta hicieron casi obligar a que sap tambien se adecue un poco al estandar exigido por el gobierno de usa
+Nov 23 20:36:08 <elsimio>	entonces en esa pagina de oagis ya existen webservices, diagramas, etc
+Nov 23 20:36:42 <elsimio>	que si uno tuviera el tiempo suficiente, no se tendria que reinventar la rueda, sino solo tomar lo necesario como por ejemplo compras, ventas, inventarios, etc
+Nov 23 20:36:59 <elsimio>	y de ahi partir, pues como es un estandar otros ya se pegaron la quebrada de coco con las transacciones
+Nov 23 20:37:15 <elsimio>	me lo sugirio el, que trabaja en cierta parte con eso
+Nov 23 20:37:24 <elsimio>	y yo solo tiro la idea al aire
+Nov 23 20:37:39 <elsimio>	como para que podamos darle una mirada un poco mas extensa y ver que hay de bueno en eso
+Nov 23 20:37:50 <elsimio>	y sino ni modo, solicont guanaco
+Nov 23 20:37:51 <CiskoSV>	elsimio: no  has tenido la oportunidad de revisarlo?
+Nov 23 20:38:03 <fcodiaz>	mas a fondo
+Nov 23 20:38:16 <elsimio>	solo he visto medio lo descargado, no bajado nada ni leer documentos, y la paja q el maje me ha dado
+Nov 23 20:38:29 <elsimio>	podria leer un poco mas y estarle consultando al chero de aca
+Nov 23 20:38:42 <elsimio>	de hecho hasta me menciono q xtecuan ya habia hablado antes con el
+Nov 23 20:38:56 <elsimio>	y tambien este chero le sugirio eso para algo "contable"
+Nov 23 20:39:19 <elsimio>	pero como xtecuan es inventor le dijo que primero queria crear su propio lenguaje de programacion
+Nov 23 20:39:30 <fcodiaz>	ok, me parece la idea, de hecho en lo que se refiere a no reinventar la rueda, tambien recordemos que hay soluciones open source como OpenERP que tambien creo que hacen lo mismo que quiere hacer solicont, entre otras
+Nov 23 20:40:01 <elsimio>	si, yo ya toque openerp
+Nov 23 20:40:12 <fcodiaz>	y quiza valdria la pena revisar que se ha hecho y si podriamos tropizalizar el proyecto
+Nov 23 20:40:21 <fcodiaz>	y adecuarlo a solicont
+Nov 23 20:40:27 <fcodiaz>	para no reinventar la rueda
+Nov 23 20:41:12 <jotamjr>	si, creo que eso ayudaría mucho ya que existen excelentes erp's
+Nov 23 20:41:16 <elsimio>	bueno ahi mi punto
+Nov 23 20:41:21 <fcodiaz>	elsimio, gracias
+Nov 23 20:41:29 <fcodiaz>	es una alternativa muy valida
+Nov 23 20:41:45 <fcodiaz>	ahi creo que lo que convendria es trabajar en grupos de 2 o 3 personas 
+Nov 23 20:41:57 <fcodiaz>	para que cada grupo analize una solucion y nos de su propuesta
+Nov 23 20:42:01 <fcodiaz>	que opinan?
+Nov 23 20:42:08 <fcodiaz>	asi como estamos haciendo con los lenguajes
+Nov 23 20:42:32 <elsimio>	el problema de tomar un erp ya existente
+Nov 23 20:42:44 <jotamjr>	fcodiaz: con oagi o los erp's?
+Nov 23 20:42:47 <elsimio>	es q primero uno tiene q medio aprender a usarlo y despues ver como funciona
+Nov 23 20:43:02 <fcodiaz>	elsimio, exacto, jotamjr los erps
+Nov 23 20:43:09 <darkness51>	elsimio: openerp tiene un framework con bastante documentacion
+Nov 23 20:43:22 <jotamjr>	si, entender el api, a veces puede ser bastante complejo
+Nov 23 20:43:52 <fcodiaz>	que a la larga tal vez nos permitiria tener resultados en menos tiempo pues ya parte del camino se ha recorrido
+Nov 23 20:44:44 <CiskoSV>	fcodiaz: eso si encontramos que si es aplicable... sino... nos atrasamos...
+Nov 23 20:44:53 <fcodiaz>	pueda ser
+Nov 23 20:45:08 <jotamjr>	xD
+Nov 23 20:45:17 <fcodiaz>	a mi me parece la idea, pero tiene que ser concenso entre todos
+Nov 23 20:46:03 <CiskoSV>	yo soy de la idea de comenzar algo... ya que se va conociendo desde adentro hacia afuera.. no al reves....
+Nov 23 20:46:10 <fcodiaz>	valdra la pena "tropicalizar" una aplicacion ya existente, con el fin de adecuarla a las necesidade de solicont y evitar asi re-inventar la rueda?
+Nov 23 20:46:14 <elsimio>	exacto
+Nov 23 20:46:14 <CiskoSV>	cualquier cambio, adaptacion es mucho mas facil..
+Nov 23 20:46:29 <elsimio>	prefiero comenzar algo o tomar una base pero no de codigo, sino base de ER
+Nov 23 20:46:33 <elsimio>	asi como lo q propongo
+Nov 23 20:46:42 <elsimio>	q tomar un openerp o sugar
+Nov 23 20:46:49 <elsimio>	pues ya he tocado los 2 y modificado codigo
+Nov 23 20:46:53 <elsimio>	y puta cuesta algo
+Nov 23 20:46:58 <fcodiaz>	ok
+Nov 23 20:47:33 <fcodiaz>	entonces elsimio quieres seguir ahondando en ese tema del Open Application Group
+Nov 23 20:47:41 <fcodiaz>	para ver si podemos sacar algo de provecho de ahi
+Nov 23 20:47:44 <fcodiaz>	?
+Nov 23 20:48:00 <elsimio>	si leere estos dias q tengo vacas
+Nov 23 20:48:19 <fcodiaz>	ok, entonces hablamos de esto la proxima semana y tu nos dices como vas
+Nov 23 20:48:27 <fcodiaz>	y si vale la pena o no
+Nov 23 20:48:38 <fcodiaz>	algo mas en este punto jovenes?
+Nov 23 20:48:49 <fcodiaz>	alguien quiere agregar algo mas antes de pasar al punto 3?
+Nov 23 20:48:50 <CiskoSV>	no more comments...
+Nov 23 20:49:17 <fcodiaz>	punto 3 de la agenda: Revision del diseno de la DB.
+Nov 23 20:49:37 <fcodiaz>	por este lado recordemos que ya se tenia un diseno de la DB del proyecto
+Nov 23 20:49:51 <fcodiaz>	en la cual aun no se tiene establecidas las relaciones entre las tablas
+Nov 23 20:50:07 <fcodiaz>	CiskoSV, tu conoces algo de esto?
+Nov 23 20:50:12 <fcodiaz>	si has visto ese diseno?
+Nov 23 20:50:35 <fcodiaz>	https://github.com/fcodiaz/Solicont/blob/master/docs/SolicontDisenoPreliminarBD.png
+Nov 23 20:50:49 <CiskoSV>	si, pero la verdad fue ya hace un tiempo...
+Nov 23 20:51:02 <fcodiaz>	cmsamour, dijo que podia ayudar con eso, pero creo que por ahora el bebe lo tiene ocupado
+Nov 23 20:51:04 <CiskoSV>	no se discutio a fondo...
+Nov 23 20:51:15 <CiskoSV>	sino fue una propuesta de Sosoriosv si no me equivoco
+Nov 23 20:51:20 <fcodiaz>	crees que nos podrias hechar la mano, ya para ir teniendo algo concreto 
+Nov 23 20:52:04 <fcodiaz>	y dado que ya tenemos la DB, podemos irle ya dando forma en base a las caracteristicas que estamos requiriendo
+Nov 23 20:52:12 <CiskoSV>	solo fue una propuesta...
+Nov 23 20:52:34 <elsimio>	si para mi eso es propuesta
+Nov 23 20:52:34 <fcodiaz>	elsimio, tu dijiste que tenias una propuesta sobre el diseno
+Nov 23 20:52:40 <fcodiaz>	o que ibas a trabajar en una
+Nov 23 20:52:46 <elsimio>	si en la mente tengo una propuesta
+Nov 23 20:52:47 <fcodiaz>	algun comentario al respecto?
+Nov 23 20:52:49 <elsimio>	tengo q plasmarla
+Nov 23 20:53:08 <elsimio>	si, mejorar ese diseno, ya que como dice CiskoSV solo fue propuesta
+Nov 23 20:53:12 <fcodiaz>	ok
+Nov 23 20:53:14 <elsimio>	no cumple criterios de modularidad
+Nov 23 20:53:27 <fcodiaz>	CiskoSV, podrias colaborar en ese sentido y trabajar junto con elsimio en esto?
+Nov 23 20:53:52 <fcodiaz>	o sino yo puedo trabajar en eso elsimio y vemos como planteamos algo mas concreto ya
+Nov 23 20:54:01 <fcodiaz>	trabajamos los dos
+Nov 23 20:54:05 <elsimio>	simon
+Nov 23 20:54:12 <elsimio>	tratare de hacer mi medio propuesta
+Nov 23 20:54:17 <CiskoSV>	este par de semanas no me comprometo, estoy estudiando un par de cosas y se me viene la inauguracion de la empresa... osea.. estoy liado... luego de esas dos semanas entro con todo...
+Nov 23 20:54:17 <jotamjr>	por cierto ahí no alcanzo a ver nada relacionado con el catalogo
+Nov 23 20:54:29 <elsimio>	exacto jotamjr
+Nov 23 20:54:58 <fcodiaz>	ok, entonces elsimio plantea tu propuesta, yo hare tambien una parte y nos pasamos la info
+Nov 23 20:55:01 <jotamjr>	mmm yo podría ayudar pero algo al suave porque estoy hasta el cuello de actividades
+Nov 23 20:55:07 <fcodiaz>	para presentar una propuesta la proxima reunion?
+Nov 23 20:55:12 <fcodiaz>	son ams de 7 dias
+Nov 23 20:55:18 <elsimio>	propuesta pero no algo fijo
+Nov 23 20:55:28 <fcodiaz>	elsimio, algo con lo que podamos comenzar
+Nov 23 20:55:28 <jotamjr>	elsimio: en que trabajas los E-R?
+Nov 23 20:56:15 <elsimio>	yo en papel lo hare o dbdesigner4
+Nov 23 20:56:40 <fcodiaz>	elsimio, entonces voy a trabajar en eso yo tambien, creo que manan tengo tiempo 
+Nov 23 20:56:45 <fcodiaz>	manana*
+Nov 23 20:57:01 <fcodiaz>	vos cuando crees que podrias trabajar en esto?
+Nov 23 20:57:02 <jotamjr>	creo que lo básico sería el core de contabilidad
+Nov 23 20:57:08 <jotamjr>	no se que opinan
+Nov 23 20:57:10 <fcodiaz>	jotamjr, ok
+Nov 23 20:57:16 <fcodiaz>	elsimio que opinas?
+Nov 23 20:57:17 <elsimio>	manana q vaya en el crucero leere eso xP
+Nov 23 20:57:48 <fcodiaz>	elsimio, nos hablamos el proximo lunes para ver como vamos
+Nov 23 20:58:00 <jotamjr>	los demas modulos "vendran por añadidura" :D
+Nov 23 20:58:12 <fcodiaz>	podremos tener esto para la proxima semana o necesitamos mas tiempo?
+Nov 23 20:58:14 <fcodiaz>	elsimio, ?
+Nov 23 20:58:16 <CiskoSV>	me parece.. comenzar con conta primero.
+Nov 23 20:58:24 <jotamjr>	CiskoSV: exacto
+Nov 23 20:58:32 <elsimio>	hare lo q pueda estos dias
+Nov 23 20:58:35 <elsimio>	aunque sea en papel
+Nov 23 20:58:48 <elsimio>	en un post-it
+Nov 23 20:58:49 <fcodiaz>	nos ponemos de acuerdo el lunes entonces
+Nov 23 20:58:55 <fcodiaz>	aja
+Nov 23 20:58:56 <fcodiaz>	o
+Nov 23 20:58:57 <fcodiaz>	ok
+Nov 23 20:59:20 <fcodiaz>	entonces quedamos asi, elsimio y yo trabajaremos en la propuesta de diseno de la DB, se comenzara con el modulo de contabilidad
+Nov 23 20:59:26 <fcodiaz>	esta bien asi?
+Nov 23 20:59:33 <CiskoSV>	yeap
+Nov 23 20:59:36 <elsimio>	simon
+Nov 23 20:59:50 <fcodiaz>	ok, algo mas?
+Nov 23 20:59:56 <fcodiaz>	algien mas quiere opinar algo
+Nov 23 21:00:03 <jotamjr>	sep
+Nov 23 21:00:14 <fcodiaz>	jotamjr, adelante
+Nov 23 21:00:16 <jotamjr>	sep, esta bien empezar al menos con conta!
+Nov 23 21:00:20 <jotamjr>	^
+Nov 23 21:00:26 <fcodiaz>	excelente
+Nov 23 21:00:31 <fcodiaz>	alguien mas?
+Nov 23 21:00:33 <fcodiaz>	darkness51?
+Nov 23 21:01:08 <darkness51>	fcodiaz: no, de momento no tengo nada que aportar, aunque tal vez pueda ayudar en algo con la base
+Nov 23 21:01:30 <fcodiaz>	excelente, todo apoyo es bienvenido y creo que esto aun que parecen baby steps por ahora
+Nov 23 21:01:36 <fcodiaz>	sera algo grande en un par de meses
+Nov 23 21:01:44 <fcodiaz>	ok, algo mas?
+Nov 23 21:01:48 <fcodiaz>	algun otro tema?
+Nov 23 21:01:53 <fcodiaz>	alguien quiere agregar algo?
+Nov 23 21:01:59 <fcodiaz>	antes de terminar la reunion?
+Nov 23 21:02:17 <jotamjr>	nop
+Nov 23 21:02:23 <fcodiaz>	CiskoSV, ?
+Nov 23 21:02:26 <fcodiaz>	darkness51, ?
+Nov 23 21:02:26 <CiskoSV>	nop
+Nov 23 21:02:27 <fcodiaz>	elsimio, ?
+Nov 23 21:02:57 <darkness51>	creo que se debería de explorar más el desarrollo sobre openerp, ya que nos resolvería los problemas de la modularidad y muchas otras cosas que ya vienen por defecto
+Nov 23 21:03:09 <elsimio>	me parece
+Nov 23 21:03:15 <elsimio>	si seria buena idea
+Nov 23 21:03:25 <fcodiaz>	lo anterior de openerp?
+Nov 23 21:03:42 <elsimio>	tambien, darkness51 podria ver algo de eso si desea
+Nov 23 21:03:51 <fcodiaz>	a mi en lo personal si me gustaria ver que ondas, que se puede sacar
+Nov 23 21:03:57 <fcodiaz>	darkness51, podrias ayudar en eso?
+Nov 23 21:04:07 <fcodiaz>	y darnos una propuesta al respecto?
+Nov 23 21:04:07 <darkness51>	fcodiaz: yo preparo algo para la proxima reunión entonces
+Nov 23 21:04:16 <darkness51>	ahorita estoy trabajando con algo que tiene que ver con openerp
+Nov 23 21:04:23 <darkness51>	asi que tengo documentación a la mano
+Nov 23 21:04:23 <fcodiaz>	me parece
+Nov 23 21:04:43 <fcodiaz>	ok, entonces tu nos cuentas la prox semana al respecto
+Nov 23 21:05:05 <fcodiaz>	cualquier cosa ya sabes, estamos por aca en este canal para comunicarnos
+Nov 23 21:05:17 <fcodiaz>	yo estare de vacaciones el jueves y viernes jovenes
+Nov 23 21:05:21 <fcodiaz>	creo que elsimio tambien
+Nov 23 21:05:43 <fcodiaz>	darkness51, gracias por tu colaboracion 
+Nov 23 21:06:00 <fcodiaz>	algo mas?
+Nov 23 21:06:10 <darkness51>	es un gusto poder colabrar con propuestas nacionales :D
+Nov 23 21:06:18 <fcodiaz>	sino, damos por terminada la reunion, nos volvemos a ver aca hasta el 2 de diciembre del 2010 a las 21 horas de .sv
+Nov 23 21:06:34 <elsimio>	chevere
+Nov 23 21:06:46 <fcodiaz>	toda la info al respecto la pueden encontrar en: https://github.com/fcodiaz/Solicont
+Nov 23 21:07:00 <fcodiaz>	gracias jovenes
+Nov 23 21:07:07 <elsimio>	jotamjr  con CiskoSV haran el modulito tipo fortune para mostrar en el sistema la cita biblica diaria
+Nov 23 21:07:34 <emonge>	xD
+Nov 23 21:07:34 <CiskoSV>	jajaj minimo
+Nov 23 21:07:49 <fcodiaz>	ok jovenes, buenas noches
+Nov 23 21:07:51 <CiskoSV>	fcodiaz: gracias a vos
+Nov 23 21:07:53 <fcodiaz>	seguimos en contacto
+Nov 23 21:08:07 <fcodiaz>	no gracias a ustedes que dedican su tiempo
+Nov 23 21:08:17 <fcodiaz>	#commit
+Nov 23 21:08:29 <elsimio>	chevere
+Nov 23 21:08:44 <jotamjr>	:s
