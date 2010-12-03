@@ -1,0 +1,328 @@
+**** BEGIN LOGGING AT Thu Dec  2 20:01:26 2010
+
+Dec 02 20:01:26 *	Now talking on #solicont
+Dec 02 20:01:26 *	Topic for #solicont is: Minuta de reunion 4 de noviembre: https://github.com/fcodiaz/Solicont/wiki/Noviembre-4-2010 || Funcionalidades pensadas en solicont: http://tinyurl.com/339n7lj || Proxima reunión 11 de noviembre 21 horas GMT-6 en este canal
+Dec 02 20:01:26 *	Topic for #solicont set by vostorga!~vostorga@gentoo/developer/vostorga at Tue Nov  9 10:13:07 2010
+Dec 02 20:01:39 <fcodiaz>	saludos jovenes, quienes estamos por aca?
+Dec 02 20:02:33 <fcodiaz>	jovenes, quienes estan por aca?
+Dec 02 20:02:58 *	emonge (~emonge@unaffiliated/emonge) has joined #solicont
+Dec 02 20:03:03 <emonge>	buenas noches
+Dec 02 20:03:17 <fcodiaz>	emonge saludos
+Dec 02 20:03:45 <fcodiaz>	listo para decidir sobre el lenguaje a usar
+Dec 02 20:03:51 <fcodiaz>	y/o herramientas
+Dec 02 20:03:56 <emonge>	fcodiaz, ciertamente
+Dec 02 20:03:57 <fcodiaz>	ping elsimio 
+Dec 02 20:04:00 <fcodiaz>	ping jotamjr 
+Dec 02 20:04:05 <fcodiaz>	ping cmsamour 
+Dec 02 20:04:39 <fcodiaz>	demos un par de minutos
+Dec 02 20:05:31 <emonge>	en un rato viene cisko
+Dec 02 20:05:41 <emonge>	ya le contacte por el BBM
+Dec 02 20:05:51 <fcodiaz>	enterado
+Dec 02 20:06:20 <emonge>	que yuca eso de TACA
+Dec 02 20:06:25 <emonge>	http://goo.gl/50gAa
+Dec 02 20:06:30 <fcodiaz>	que paso?
+Dec 02 20:08:39 <emonge>	encontraron droga y pisto
+Dec 02 20:08:43 <emonge>	en un avion de taca
+Dec 02 20:09:06 *	smartinez (~smartinez@200.85.30.182) has joined #solicont
+Dec 02 20:09:37 <fcodiaz>	trafico
+Dec 02 20:09:46 *	CiskoSV (~CiskoSV@190.87.18.20) has joined #solicont
+Dec 02 20:09:56 <fcodiaz>	saludos jovenes, CiskoSV 
+Dec 02 20:09:58 <fcodiaz>	smartinez, 
+Dec 02 20:09:58 *	CiskoSV saluda
+Dec 02 20:10:28 <smartinez>	buenas noches!
+Dec 02 20:10:29 <fcodiaz>	ojala y darkness pueda acompaniarnos
+Dec 02 20:10:39 <fcodiaz>	el tenia tambien una propuesta sobre OpenERP que seria bueno escuchar
+Dec 02 20:10:58 <fcodiaz>	ping jotamjr 
+Dec 02 20:11:07 <fcodiaz>	ping elsimio 
+Dec 02 20:11:54 <fcodiaz>	bueno jovenes comenzamos los que estamos
+Dec 02 20:12:06 <fcodiaz>	y los que vayan llegando que se vayan uniendo a la charla
+Dec 02 20:12:21 <fcodiaz>	comenzamos la reunion del grupo de solicont hoy 2 de diciembre
+Dec 02 20:12:44 <fcodiaz>	el primer punto de la agenda es con respecto a la seleccion del lenguaje
+Dec 02 20:13:03 <fcodiaz>	documentos se presentaron para Ruby, Python, Perl y PHP
+Dec 02 20:13:26 <fcodiaz>	espero hayan tenido tiempo de leer, y/o buscar informacion al respecto de estos en otras fuentes
+Dec 02 20:13:41 <fcodiaz>	como les gustaria hacer la votacion y/o seleccion del lenguaje?
+Dec 02 20:14:19 <fcodiaz>	elsimio, me mando un mensaje, dice que llega en unos 10 minutos
+Dec 02 20:15:17 <fcodiaz>	jovenes, entonces
+Dec 02 20:15:29 <fcodiaz>	que metodo les parece para seleccionar el lenguaje
+Dec 02 20:15:43 <CiskoSV>	hmmm son 4... elijamos 2 y decidamos..
+Dec 02 20:15:43 *	fcodiaz ve a la mara leyando los documentos
+Dec 02 20:16:09 <fcodiaz>	que dicen los demas?
+Dec 02 20:16:13 <fcodiaz>	emonge, jotamjr 
+Dec 02 20:16:55 <fcodiaz>	curva de aprendizaje nos tocara a todos
+Dec 02 20:17:10 <CiskoSV>	yeap...
+Dec 02 20:17:12 <fcodiaz>	por que no todos estamos familiarizados, al menos mi persona, con los frameworks
+Dec 02 20:17:23 <fcodiaz>	de lenguajes como Perl y RoR
+Dec 02 20:17:25 <CiskoSV>	yo creo que nunca he utilizado un framework...
+Dec 02 20:18:09 <fcodiaz>	no es mala idea comenzar, y como decia, aprender algo nuevo para mantenerse activo en el mercado del trabajo
+Dec 02 20:18:16 <fcodiaz>	jotamjr, emonge estamos?
+Dec 02 20:18:31 <CiskoSV>	En lo personal me parecio bastante perl ....
+Dec 02 20:18:49 <fcodiaz>	la presentacion de jotamjr se ve bastante convincente no?
+Dec 02 20:19:10 <fcodiaz>	un punto a favor es que jotamjr ha tenido experiencia en ese framework
+Dec 02 20:19:12 <CiskoSV>	fcodiaz: sipe... se ve completo...
+Dec 02 20:19:24 <CiskoSV>	ok.. puede irnos instruyendo cuando nos trabemos
+Dec 02 20:19:59 <fcodiaz>	bueno y los demas que se hicieron?
+Dec 02 20:20:01 <smartinez>	donde estas los documentos?
+Dec 02 20:20:04 <fcodiaz>	desaparecieron?
+Dec 02 20:20:21 <emonge>	:)
+Dec 02 20:20:22 <fcodiaz>	smartinez, https://github.com/fcodiaz/Solicont/tree/master/docs/
+Dec 02 20:20:48 <fcodiaz>	esperamos a elsimio para emitir nuestro voto
+Dec 02 20:21:09 <emonge>	vere si esta en el msn
+Dec 02 20:21:35 <fcodiaz>	me mando un mensaje al cel,
+Dec 02 20:21:43 <fcodiaz>	dice que llega a la casa en unos minutos
+Dec 02 20:22:15 <fcodiaz>	asi que si gustan podemos pasar a otro punto mientras tanto
+Dec 02 20:22:18 <fcodiaz>	les parece?
+Dec 02 20:22:31 <CiskoSV>	sale
+Dec 02 20:22:32 <fcodiaz>	el punto 2 le corresponde a darkness51
+Dec 02 20:22:37 <fcodiaz>	pero creo que no esta presente
+Dec 02 20:22:41 <fcodiaz>	asi que lo saltaremos
+Dec 02 20:22:43 <fcodiaz>	punto 3
+Dec 02 20:22:54 <fcodiaz>	necesitamos la ayuda de un experto en contabilidad
+Dec 02 20:22:59 <fcodiaz>	para que nos guie
+Dec 02 20:23:08 <fcodiaz>	yo por mi parte contabilidad la pase de noche
+Dec 02 20:23:24 <fcodiaz>	que podemos hacer al respecto, quien nos puede ayudar en esto?
+Dec 02 20:23:29 <emonge>	yo igual, no ando bien en eso
+Dec 02 20:23:58 <jotamjr>	ups perdon
+Dec 02 20:24:01 *	jotamjr andaba comiendo
+Dec 02 20:24:04 <CiskoSV>	sosoriosv es bueno en esto.. yo tengo mis bases... y como les mencionaba tengo un par de buenos amigos contadores  que estarian mas que contentos de guiarnos/apoyarnos/testear el software
+Dec 02 20:24:39 <fcodiaz>	por que ya comenzariamos la etapa de diseno de modulos
+Dec 02 20:24:55 <fcodiaz>	y seria bueno plantear en un documento lo que va a hacer cada modulo
+Dec 02 20:25:01 <fcodiaz>	y sus requerimientos
+Dec 02 20:25:19 <fcodiaz>	como podriamos abordar esto entonces?
+Dec 02 20:25:33 <fcodiaz>	quienes pueden reunirse con esta gente y tomar ideas
+Dec 02 20:26:03 <fcodiaz>	CiskoSV, tu nos puedes ayudar al respecto?
+Dec 02 20:26:10 <CiskoSV>	claro
+Dec 02 20:26:14 <fcodiaz>	en ir tomando ideas de lo que necesita tener cada modulo
+Dec 02 20:26:25 <CiskoSV>	modulo a modulo..
+Dec 02 20:26:26 <CiskoSV>	np
+Dec 02 20:26:35 <fcodiaz>	e ir, no se preparando una especie de diagrama de bloques 
+Dec 02 20:26:43 <fcodiaz>	donde podamos ver que necesitamos
+Dec 02 20:26:46 <jotamjr>	o casos de usos
+Dec 02 20:26:58 <fcodiaz>	tambien, casos de usuarios
+Dec 02 20:26:59 <elsimio>	hola
+Dec 02 20:26:59 <elsimio>	vine
+Dec 02 20:27:10 <fcodiaz>	saludos elsimio, aun no hemos votado
+Dec 02 20:27:22 <fcodiaz>	estamos tratando el punto 3 de la agenda
+Dec 02 20:27:28 <fcodiaz>	votaremos luego
+Dec 02 20:27:42 <fcodiaz>	entonces CiskoSV puedes reunirte con tus amigos y tomar ideas
+Dec 02 20:27:49 <elsimio>	ok me parece q vengo con la garganta reseca por venir corrient
+Dec 02 20:27:52 <fcodiaz>	puedes mostrarle las caracteristicas que tenemos por el momento
+Dec 02 20:28:08 <fcodiaz>	y ver como podemos ir abordando los diferentes modulos
+Dec 02 20:28:16 <fcodiaz>	cuales serian primordiales
+Dec 02 20:28:32 <fcodiaz>	cuales pueden ir o no, y cuales pueden esperara
+Dec 02 20:28:54 <fcodiaz>	CiskoSV, entonces es tuya la tarea
+Dec 02 20:29:00 <fcodiaz>	quien puede ayudar a CiskoSV en esto?
+Dec 02 20:29:15 <jotamjr>	yo también tengo unos conocidos
+Dec 02 20:29:17 <fcodiaz>	para que se pongan de acuerdo
+Dec 02 20:29:30 <jotamjr>	creo que podemos hacer un merge entre lo que recopilemos ambos
+Dec 02 20:29:34 <fcodiaz>	CiskoSV, jotamjr pueden trabajar ambos en esto entonces?
+Dec 02 20:29:43 <fcodiaz>	cuanto tiempo necesitan jovenes?
+Dec 02 20:29:59 <fcodiaz>	esto puede tomar algo de tiempo, mas de una sesion con sus amigos
+Dec 02 20:30:01 <jotamjr>	de cuanto tiempo disponemos?
+Dec 02 20:30:04 <fcodiaz>	invitarlos a unas chelas
+Dec 02 20:30:04 <CiskoSV>	un par de semanas quiza...
+Dec 02 20:30:08 <fcodiaz>	yo creo
+Dec 02 20:30:33 <fcodiaz>	como para la semana antes de navidad
+Dec 02 20:30:47 <jotamjr>	practicamente 3 semanas
+Dec 02 20:30:59 <fcodiaz>	para ver como van e ir tomando ideas, mientras vamos avanzando en aprender el framework que vamos a utilizar
+Dec 02 20:31:12 <fcodiaz>	ok CiskoSV jotamjr pueden ponerse de acuerdo
+Dec 02 20:31:18 <jotamjr>	ok!
+Dec 02 20:31:23 <fcodiaz>	cuando pueden ir presentando avances
+Dec 02 20:31:35 <fcodiaz>	y discutimos esto la proxima reunion
+Dec 02 20:31:39 <fcodiaz>	les parece?
+Dec 02 20:31:55 <fcodiaz>	CiskoSV, y sosorio le has comentado de lo que estamos haciendo?
+Dec 02 20:32:11 <CiskoSV>	fcodiaz: nope.. no lo he visto realmente... alguien tiene el tel para llamarle?
+Dec 02 20:32:13 <fcodiaz>	esta interesado en colaborarnos o esta ocupado con algo?
+Dec 02 20:32:38 <fcodiaz>	bueno, si puedes contactarlo seria bueno
+Dec 02 20:33:22 <CiskoSV>	si.. es de preguntarle q ondas
+Dec 02 20:33:32 <fcodiaz>	entonces acordamos que CiskoSV y jotamjr contactaran a sus amigos para tomar ideas de lo que es necesario en los diferentes modulos del proyecto
+Dec 02 20:33:39 <fcodiaz>	esta bien asi jovenes?
+Dec 02 20:33:44 <emonge>	si, me parece
+Dec 02 20:33:51 <fcodiaz>	ok
+Dec 02 20:33:56 <fcodiaz>	regresamos al punto 1?
+Dec 02 20:34:01 <fcodiaz>	listos para votar?
+Dec 02 20:34:22 <emonge>	si
+Dec 02 20:34:34 <fcodiaz>	alguna metodologia para la votacion?
+Dec 02 20:34:51 <fcodiaz>	o simplemente damos nuestro voto a un lenguaje y luego contamos cuantos estamos en favor?
+Dec 02 20:35:14 <elsimio>	puede uno decir palabras antes de la votacion?
+Dec 02 20:35:20 <fcodiaz>	creo que si
+Dec 02 20:35:23 <emonge>	elsimio, in extremis?
+Dec 02 20:35:24 <jotamjr>	calmate survivor
+Dec 02 20:35:33 <fcodiaz>	vale la pena saber por que votas por un lenguaje
+Dec 02 20:35:44 <elsimio>	si eso mismo
+Dec 02 20:35:48 <fcodiaz>	me parece
+Dec 02 20:35:49 <jotamjr>	y si los votamos todos contra todos que les parece
+Dec 02 20:35:54 <jotamjr>	foo vrs bar
+Dec 02 20:35:58 <jotamjr>	foo vrs sigma
+Dec 02 20:35:59 <elsimio>	voten por el lenguaje que saben, dominan y con el que estan dispuestos a ayudar
+Dec 02 20:36:00 <jotamjr>	etc
+Dec 02 20:36:00 <emonge>	QUE INICIE LA VOTACION ENTONCES
+Dec 02 20:36:07 <emonge>	no hablemos tanta paja
+Dec 02 20:36:11 <elsimio>	no con el que ustedes han escuchado que es el mejor
+Dec 02 20:36:26 <fcodiaz>	ok
+Dec 02 20:36:45 *	fcodiaz vota por python + django
+Dec 02 20:37:19 *	elsimio vota por php + cualquier framework
+Dec 02 20:37:34 *	CiskoSV vota por php por ser el que manejo y perl porque se ve bastante completo...
+Dec 02 20:37:51 *	emonge vota por php + openranger
+Dec 02 20:38:24 *	jotamjr vota por perl + catalyst o wtf php + lo que sea
+Dec 02 20:38:37 <fcodiaz>	falta alguien mas?
+Dec 02 20:38:47 <fcodiaz>	parece que tenemos ganador
+Dec 02 20:39:13 <fcodiaz>	PHP sera entonces jovenes?
+Dec 02 20:39:29 <fcodiaz>	alguien mas?
+Dec 02 20:39:33 <elsimio>	las votaciones no se repiten, no es el TSJ aqui
+Dec 02 20:39:38 <jotamjr>	jaja
+Dec 02 20:39:43 <jotamjr>	segunda ronda xD
+Dec 02 20:39:43 <fcodiaz>	solo pregunto si alguien falto de votar
+Dec 02 20:39:54 <fcodiaz>	yo ya dije, parece que tenemos ganador
+Dec 02 20:39:57 <fcodiaz>	PHP
+Dec 02 20:40:02 <jotamjr>	xD
+Dec 02 20:40:07 <fcodiaz>	ahora la pregunta, si es necesario un framework
+Dec 02 20:40:08 <fcodiaz>	cual?
+Dec 02 20:40:16 <fcodiaz>	PHP parece que la lista es larga
+Dec 02 20:40:26 <fcodiaz>	los conocedores del tema?
+Dec 02 20:40:44 <CiskoSV>	cmsamour... cake..
+Dec 02 20:40:52 <elsimio>	yo no recomiendo cake
+Dec 02 20:41:17 <fcodiaz>	elsimio, por?
+Dec 02 20:41:58 <elsimio>	no se si lo han usado, es un seudo-framework que casi solo te servia-sirve para crear faciles mttos, antes tenia poca documentacion
+Dec 02 20:42:08 <elsimio>	hoy creo que ha cambiado un poco
+Dec 02 20:42:13 <emonge>	yo no soy programador, no me hagan tanto caso, pero no me gustan los frameworks
+Dec 02 20:42:22 <emonge>	para mi PHP from scratch
+Dec 02 20:42:26 <jotamjr>	yo he escuchado rumores que symphony o no se como se escribe es la gran cosa
+Dec 02 20:42:28 <elsimio>	si php ya es nuestro lenguaje, voto por crear nuestras propias librerias y funciones
+Dec 02 20:43:51 <emonge>	yo igual
+Dec 02 20:43:58 *	emonge vota por no usar framework
+Dec 02 20:44:15 *	elsimio vota por no usar framework, crear librearias OpenRanger
+Dec 02 20:44:23 *	CiskoSV nunca ha usado uno.... no sabe de ventajas..
+Dec 02 20:44:24 <fcodiaz>	bueno demosle, pero si en el camino necesitamos uno o se nos facilita usar uno, podrian cambiar de opinion?
+Dec 02 20:44:35 <jotamjr>	yo voto por usar framework para estandarizar un poco las cosas
+Dec 02 20:44:39 <jotamjr>	y facilitar otras
+Dec 02 20:44:52 <fcodiaz>	yo tambien opino que usar frameworks es lo mas adecuado
+Dec 02 20:45:09 <elsimio>	bueno
+Dec 02 20:45:12 <fcodiaz>	y ponerse a inventar la rueda en estos tiempos no es lo mas adecuado
+Dec 02 20:45:15 <elsimio>	eso lo vamos a decidir luego
+Dec 02 20:45:18 <fcodiaz>	ok
+Dec 02 20:45:22 <jotamjr>	por ejemplo aplicar el MVC sera de gran ayuda
+Dec 02 20:45:36 <fcodiaz>	bueno, jovenes entonces esta acordado que el lenguaje de programacion es PHP
+Dec 02 20:45:38 <jotamjr>	y no andar haciendo sucios querys por todo el codigo
+Dec 02 20:45:43 <jotamjr>	sep
+Dec 02 20:45:52 <jotamjr>	ni modo a aprender xD
+Dec 02 20:46:00 <fcodiaz>	lo que crea inconsistencias, problemas de seguridad y SQL injections 
+Dec 02 20:46:02 <emonge>	bueno
+Dec 02 20:46:12 <jotamjr>	fcodiaz: exactamente
+Dec 02 20:46:16 <fcodiaz>	ok, punto 1 esta completo entonces
+Dec 02 20:46:29 <fcodiaz>	la idea era seleccionar el lenguaje, las herramientas las veremos en el camino, les parece
+Dec 02 20:46:36 <emonge>	ok
+Dec 02 20:46:40 <jotamjr>	commit
+Dec 02 20:46:51 <elsimio>	ganamos la sede
+Dec 02 20:46:53 <fcodiaz>	punto 4 de la agenda
+Dec 02 20:46:54 <jotamjr>	:(
+Dec 02 20:47:02 <elsimio>	=D
+Dec 02 20:47:15 <fcodiaz>	el proyecto va entrando a una nueva etapa
+Dec 02 20:47:22 <jotamjr>	yo desde el principio ya sabia que php ibamos a terminar usando
+Dec 02 20:47:30 <fcodiaz>	CiskoSV, y jotamjr nos colaboraran hablando con lso expertos
+Dec 02 20:47:58 <emonge>	21:47 < jotamjr> yo desde el principio ya sabia que php ibamos a terminar usando <--- como que es bicha regañada este jotamjr
+Dec 02 20:48:02 <CiskoSV>	yeap.. php... es el que todos usamos...
+Dec 02 20:48:11 <CiskoSV>	pero... sera esa la unica ventaja??
+Dec 02 20:48:12 *	fcodiaz no usa PHP
+Dec 02 20:48:18 <fcodiaz>	pero bueno
+Dec 02 20:48:20 <fcodiaz>	ahi voy
+Dec 02 20:48:21 <CiskoSV>	no consideramos otras opciones...?
+Dec 02 20:48:43 <fcodiaz>	con respecto al diseno de la DB
+Dec 02 20:48:54 <fcodiaz>	elsimio, tu dijiste que tendrias una propuesta, como vas con eso?
+Dec 02 20:49:05 <elsimio>	hoy no, he pasado muy ocupado con mi trabajo
+Dec 02 20:49:10 <elsimio>	lo siento por eso
+Dec 02 20:49:18 <elsimio>	tratare este finde
+Dec 02 20:49:23 <fcodiaz>	ok
+Dec 02 20:49:33 <jotamjr>	CiskoSV: pueda ser
+Dec 02 20:49:40 <jotamjr>	xD
+Dec 02 20:50:28 <fcodiaz>	ok entonces elsimio preparas algo para la proxima reunion?
+Dec 02 20:50:35 <elsimio>	si
+Dec 02 20:50:38 <elsimio>	la otra si
+Dec 02 20:50:44 <elsimio>	un bosquejo/semi-er
+Dec 02 20:51:07 <fcodiaz>	tarea: elsimio presentara propuesta de diseno de la DB par ala proxima reunion el 9 de dic (creo)
+Dec 02 20:51:12 <fcodiaz>	ok
+Dec 02 20:51:22 <fcodiaz>	alguno ha pensado en que metodologia vamos a utilizar?
+Dec 02 20:51:45 <fcodiaz>	a lo loco? waterfall? ciclico? RAD?
+Dec 02 20:51:51 <fcodiaz>	OpenRanger?
+Dec 02 20:52:14 <elsimio>	no
+Dec 02 20:52:20 <jotamjr>	una pregunta del doc fue si el lenguaje se aplicaba a RAD
+Dec 02 20:52:24 <elsimio>	tratare de documentar algo mas o menos formal
+Dec 02 20:52:29 <elsimio>	segun mi experiencia
+Dec 02 20:53:16 <fcodiaz>	ok
+Dec 02 20:53:39 <fcodiaz>	y en base a lo que nos presenten jotamjr y CiskoSV creo que podemos ir armando el documento de requerimientos del sistema
+Dec 02 20:53:43 <fcodiaz>	les parece?
+Dec 02 20:53:49 <emonge>	ok
+Dec 02 20:54:07 <fcodiaz>	algo mas por aportar a la reunion?
+Dec 02 20:54:11 <fcodiaz>	alguien quiere agregar algo?
+Dec 02 20:54:53 <jotamjr>	la forma de recopilar los requerimientos esta relacionada con la metodología
+Dec 02 20:54:57 <emonge>	yo sigo de necio
+Dec 02 20:55:01 <emonge>	con la lista de correo
+Dec 02 20:55:27 <fcodiaz>	emonge, donde podemos tener una lista de correo?
+Dec 02 20:55:41 <emonge>	encuentro muy lenta esta forma de comunicacion
+Dec 02 20:55:53 <emonge>	cada semana o dos semanas estar hablando de solicont
+Dec 02 20:55:57 <emonge>	como que uno se desconecta
+Dec 02 20:56:08 <fcodiaz>	emonge, entonces que propones?
+Dec 02 20:56:16 <emonge>	fcodiaz, en openranger podemos hacer una lista
+Dec 02 20:56:26 <elsimio>	un celular pagado por openranger?
+Dec 02 20:56:28 <fcodiaz>	crear una lista para comunicarnos
+Dec 02 20:56:38 <emonge>	solicont@openranger.org
+Dec 02 20:56:46 <emonge>	asi a lo rapido
+Dec 02 20:56:53 <jotamjr>	openranger donara nexus a todos
+Dec 02 20:56:55 <elsimio>	now
+Dec 02 20:56:57 <emonge>	no cono mailman
+Dec 02 20:57:00 <fcodiaz>	por que aqui en github creo que las listas de correo no funcionan muy bien
+Dec 02 20:57:00 <emonge>	con*
+Dec 02 20:57:01 <elsimio>	crealo pues perro
+Dec 02 20:57:22 <emonge>	la hare en openranger
+Dec 02 20:57:22 <fcodiaz>	emonge, puedes colaborar con eso entonces
+Dec 02 20:57:24 <emonge>	entonces
+Dec 02 20:57:27 <emonge>	si
+Dec 02 20:57:37 <fcodiaz>	acordado crear una lista de correo para el grupo
+Dec 02 20:57:43 <emonge>	temporal
+Dec 02 20:57:50 <fcodiaz>	y emonge se encargara al respecto
+Dec 02 20:57:51 <emonge>	ya cuando tengamos dominio y todo eso
+Dec 02 20:57:54 <emonge>	ponemos la oficial
+Dec 02 20:58:01 <fcodiaz>	ok me parece
+Dec 02 20:58:22 <emonge>	ok
+Dec 02 20:58:37 <fcodiaz>	pero podemos seguir con la reunion semanal?
+Dec 02 20:58:41 <fcodiaz>	o ya no?
+Dec 02 20:58:45 <CiskoSV>	me puedo encargar de levantar el dominio de nuevo..
+Dec 02 20:58:59 <fcodiaz>	ok
+Dec 02 20:59:04 <emonge>	si
+Dec 02 20:59:07 <emonge>	la reunion si
+Dec 02 20:59:09 <fcodiaz>	ok
+Dec 02 20:59:20 <emonge>	pero siento que la lista da mas inmediatez
+Dec 02 20:59:24 <emonge>	por eso lo recomendaba
+Dec 02 20:59:31 <fcodiaz>	emonge, esta bien
+Dec 02 20:59:40 <fcodiaz>	tu nos avisas cuando este lista para agregarnos
+Dec 02 20:59:57 <elsimio>	dale
+Dec 02 20:59:57 <emonge>	fcodiaz, yo los agregare
+Dec 02 21:00:00 <fcodiaz>	ok
+Dec 02 21:00:10 <fcodiaz>	bueno, algo mas que se quede pendiente?
+Dec 02 21:00:18 <fcodiaz>	algun otro tema que alguien mas quiera discutir
+Dec 02 21:00:25 <fcodiaz>	sino damos por concluida la reunion
+Dec 02 21:00:56 <elsimio>	nada
+Dec 02 21:00:59 <fcodiaz>	nadie?
+Dec 02 21:01:01 <jotamjr>	nop
+Dec 02 21:01:10 <emonge>	nop
+Dec 02 21:01:12 <fcodiaz>	ok entonces terminamos aqui
+Dec 02 21:01:25 <fcodiaz>	la proxima reunion sera el proximo jueves 9 de diciembre 
+Dec 02 21:01:31 <fcodiaz>	el mismo canal y la misma hora
+Dec 02 21:02:01 <CiskoSV>	sale y vale
+Dec 02 21:02:02 <fcodiaz>	gracias jovenes
+Dec 02 21:02:06 <fcodiaz>	gracias por su tiempo
+Dec 02 21:02:24 <emonge>	ok ok
+Dec 02 21:02:28 <jotamjr>	ok
+Dec 02 21:02:36 <fcodiaz>	nos avisas entonces emonge 
+Dec 02 21:02:42 <fcodiaz>	cuando tengas la lista
+Dec 02 21:02:45 <fcodiaz>	nos mandas un correo
+Dec 02 21:02:53 <jotamjr>	xD
+Dec 02 21:03:13 <fcodiaz>	vemos jovenes
+Dec 02 21:03:19 <fcodiaz>	seguimos en contacto
+Dec 02 21:03:29 <fcodiaz>	y a desempolvar los libros de PHP
+Dec 02 21:03:38 <fcodiaz>	creo que tengo uno por ahi
+Dec 02 21:03:49 <fcodiaz>	#commit
+Dec 02 21:04:02 <emonge>	fcodiaz, si
+Dec 02 21:05:40 <jotamjr>	:S
+Dec 02 21:17:21 *	smartinez has quit (Quit: Saliendo)
+**** ENDING LOGGING AT Thu Dec  2 21:29:14 2010
+
