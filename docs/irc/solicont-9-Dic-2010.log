@@ -1,0 +1,284 @@
+**** BEGIN LOGGING AT Thu Dec  9 20:04:59 2010
+
+Dec 09 20:04:59 *	Now talking on #solicont
+Dec 09 20:04:59 *	Topic for #solicont is: Wiki https://github.com/fcodiaz/Solicont/wiki || Funcionalidades pensadas en solicont: http://tinyurl.com/339n7lj
+Dec 09 20:04:59 *	Topic for #solicont set by vostorga!~vostorga@gentoo/developer/vostorga at Thu Dec  9 11:00:36 2010
+Dec 09 20:05:30 <fcodiaz>	saludos jovenes
+Dec 09 20:06:04 <fcodiaz>	quienes andan por aca
+Dec 09 20:06:14 <elsimio>	yo
+Dec 09 20:07:08 <jotamjr>	me
+Dec 09 20:08:19 <emonge>	yo
+Dec 09 20:08:30 <emonge>	vostorga, culero
+Dec 09 20:08:46 <fcodiaz>	ping darkness51 
+Dec 09 20:08:58 <darkness51>	fcodiaz: hola
+Dec 09 20:09:03 <fcodiaz>	saludos
+Dec 09 20:09:32 <fcodiaz>	ahora tenemos bastante quorum
+Dec 09 20:09:42 <fcodiaz>	y no muchos temas que tratar
+Dec 09 20:09:49 <fcodiaz>	comenzamos?
+Dec 09 20:10:21 <fcodiaz>	darkness51, tuyo es el punto 1 de la agenda
+Dec 09 20:10:28 <fcodiaz>	ibas a hablarnos sobre openERP
+Dec 09 20:11:32 <emonge>	go ahead!
+Dec 09 20:11:33 <darkness51>	comencemos
+Dec 09 20:11:56 <darkness51>	bueno... creo que muchos ya conocen openerp, es un sistema erp desarrollado completamente en python
+Dec 09 20:12:00 <fcodiaz>	hay tormenta por aca parece, si me desconecto continuen sin mi
+Dec 09 20:12:35 <darkness51>	esta diseñado con arquitectura cliente - servidor y al ser un erp que tiene bastante tiempo nos aportaría un framework bastante bueno para trabajar sobre el
+Dec 09 20:12:54 <darkness51>	tiene un ORM bastante bueno y realmente, podríamos tener algo funcional bastante rápido
+Dec 09 20:13:24 <darkness51>	utiliza como base de datos postgres y en su versión 6 la interfaz web esta mucho mejor que la actual en la versión 5
+Dec 09 20:14:01 <emonge>	bajo que licencia se ha liberado?
+Dec 09 20:14:05 <darkness51>	como pro para trabajar solicont sobre OERP es que, ya existen localizaciones como la española que nos podría adelantar una buena parte del trabajo y solo dedicarnos a modificarla para las necesidades de nuestro país
+Dec 09 20:14:14 <darkness51>	GPL
+Dec 09 20:14:44 <darkness51>	el cliente web tiene una licencia creative commons
+Dec 09 20:15:09 <emonge>	ok
+Dec 09 20:15:37 <fcodiaz>	cual es tu experiencia con oerp darkness51 ?
+Dec 09 20:15:45 <darkness51>	además de brindarnos soporte multiplataforma y la posibilidad de que nosotros podamos desarrollar una interfaz propia
+Dec 09 20:15:54 <fcodiaz>	tu estas trabajando con esta app me dijiste
+Dec 09 20:16:29 <darkness51>	de momento, mi experiencia con OERP ha sido la de comenzar a ver el developer book y comenzar una pequeña localización que no he avanzado tanto, porque me gustaría mejor hacerla para la versión 6 que tiene una mejor interfaz
+Dec 09 20:16:48 <darkness51>	de momento, lo que trabajo, es un webservice en xmlrpc que servira para interactuar con vtiger
+Dec 09 20:17:04 <fcodiaz>	ok
+Dec 09 20:17:35 <fcodiaz>	que desventaja le ves de usar oerp a comenzar algo desde cero?
+Dec 09 20:17:45 <darkness51>	he hecho algunas pequeñas modificaciones a algunos módulos que utilizamos en el desarrollo del cliente xmlrpc, y con esto, he tenido la oportunidad de ver el framework que usa
+Dec 09 20:18:29 <darkness51>	bueno... desventajas de openerp?? pues realmente, veo pocas, la única es la curva de aprendizaje del framework que utiliza
+Dec 09 20:18:49 <darkness51>	ya que es bastante extenso y tiene muchas cosas que ver, como los reportes, wizards, workflow, etc
+Dec 09 20:18:50 <fcodiaz>	aparte del lenguaje, python
+Dec 09 20:18:58 <fcodiaz>	que aqui pocos o creo que solo yo trabaja en el
+Dec 09 20:19:21 <jotamjr>	xD
+Dec 09 20:19:33 <darkness51>	bueno... yo trabajo con python para automatizar procesos en algunos servidores y para hacer algunos wrappers sencillos
+Dec 09 20:19:37 <fcodiaz>	asi que habria que agregar la curva de aprendizaje de python, que no es muy fuerte despues de todo, pero igual hay que agregar eso
+Dec 09 20:19:48 <fcodiaz>	:D ya somos dos
+Dec 09 20:19:58 <elsimio>	yo pense q ya habiamos decidido el lenguaje
+Dec 09 20:20:14 <darkness51>	si, es cierto, habría que agregar la curva de aprendizaje de python, pero es un lenguaje que por lo menos lo básico se aprende rápido
+Dec 09 20:20:26 <fcodiaz>	si eso ya esta decidido, pero vale la pena escuchar lo que otros tiene que decir al respecto
+Dec 09 20:20:48 <darkness51>	OERP nos aportaría ventajas ya que nos avanza muchas cosas, reportería, la contabilidad, etc que solo hay que localizarlo
+Dec 09 20:21:29 <fcodiaz>	realmente es una opcion que existe tambien, la de retomar algo ya existente y comenzar desde ahi
+Dec 09 20:22:04 <darkness51>	claro, php es un gran lenguaje, podríamos perfectamente tomar un framework ya existente y desarrollar en el
+Dec 09 20:22:13 <fcodiaz>	pero algunos comentaban que la carga de tener que aprender de codigo ya existente es mas complicado
+Dec 09 20:22:24 <fcodiaz>	que comenzar a desarrollar nuestras propias librerias y demas
+Dec 09 20:22:41 <fcodiaz>	tambien esta la opcion de usar un framework en php y usarlo para el desarrollo
+Dec 09 20:22:53 <fcodiaz>	que varios somos partidarios de esa idea
+Dec 09 20:23:00 <darkness51>	no le veo el caso a comenzar a crear librería cuando ya hay muchos y muy buenas hechas, por ejemplo zend framework, de los creadores del core de php
+Dec 09 20:23:19 <fcodiaz>	de usar un framework y a estas alturas, ya todo el mundo esta utilizando frameworks para desarrollo
+Dec 09 20:23:30 <darkness51>	doctrine como orm, que incluso zend lo usara en lugar del orm propio
+Dec 09 20:23:31 <fcodiaz>	exacto
+Dec 09 20:23:33 <elsimio>	bueno cuando llegue mi parte de la BD opinare
+Dec 09 20:23:50 <fcodiaz>	si hay dos puntos de vista por aca entre los que estamos en esto
+Dec 09 20:23:59 <fcodiaz>	unos que favorecen usar un framework, cualquiera que sea
+Dec 09 20:24:11 <fcodiaz>	y otros que quieren hacer algo mas a pata
+Dec 09 20:24:30 <darkness51>	bueno... yo me apunto en lo que la mayoría diga, si dicen php, pues bien, pero sería bueno que con un framework, sea cual sea
+Dec 09 20:24:36 <fcodiaz>	ya veremos en el camino que sucede, aun estamos en la recoleccion de informacion para el proyecto, verdad jotamjr 
+Dec 09 20:24:45 <fcodiaz>	ok
+Dec 09 20:24:48 <jotamjr>	:\
+Dec 09 20:24:53 <fcodiaz>	algo mas que quieras agregar darkness51 ?
+Dec 09 20:25:24 <darkness51>	mmm, no, realmente, pienso que la mejor forma  de conocer oerp es probarlo, porque hay muchas cosas, en las que quizas, me puedo quedar corto
+Dec 09 20:25:47 <fcodiaz>	talvez tu que vas a trabajar con el, nos puedas dar ideas de como hacer algunos modulos 
+Dec 09 20:26:05 <darkness51>	ok
+Dec 09 20:26:07 <fcodiaz>	y yo creo que eso es valido
+Dec 09 20:26:20 <fcodiaz>	si alhuien ya invento la rueda, por que volverla a hacer
+Dec 09 20:26:31 <fcodiaz>	algo mas darkness51 ?
+Dec 09 20:26:38 <darkness51>	fcodiaz: no
+Dec 09 20:26:42 <fcodiaz>	sino pasamos al siguiente punto, con jotamjr 
+Dec 09 20:26:53 <fcodiaz>	jotamjr, adelante, algun avance sobre tus contactos 
+Dec 09 20:27:13 <elsimio>	ahi hablare yo
+Dec 09 20:27:18 <jotamjr>	pues eso estaba hablando con elsimio hace ratos
+Dec 09 20:27:25 <elsimio>	yo tengo un chero, un viejo con el q hacia biz en ondas contables
+Dec 09 20:27:30 <elsimio>	el q le recomende a jotamjr para un biz contable
+Dec 09 20:27:37 <fcodiaz>	ok
+Dec 09 20:27:40 <jotamjr>	el tata de elsimio
+Dec 09 20:27:40 <elsimio>	y bueno el senor es contador y sabe usar un vergo de programas contables
+Dec 09 20:27:56 <elsimio>	cuando yo este alla, el nos podria ayudar en ciertos lineamientos
+Dec 09 20:28:03 <elsimio>	ya q ademas de contador conoce muchos sistemas contables
+Dec 09 20:28:05 <elsimio>	he dicho
+Dec 09 20:28:24 <fcodiaz>	ok me parece bien
+Dec 09 20:28:27 <jotamjr>	yo en esta semana he estado algo asfixiado y no pude avanzar en eso
+Dec 09 20:28:37 <fcodiaz>	ok
+Dec 09 20:28:39 <jotamjr>	pero espero ya esta que viene poder avanzar y coordinarme con cisko
+Dec 09 20:28:50 <fcodiaz>	excelente
+Dec 09 20:28:58 <fcodiaz>	entonces seguiremos dejando este punto para mas adelante 
+Dec 09 20:29:09 <fcodiaz>	algo mas que quieras agregar jotamjr ?
+Dec 09 20:29:11 <fcodiaz>	al respecto?
+Dec 09 20:29:29 <elsimio>	si ese punto mas adelante
+Dec 09 20:29:30 <jotamjr>	mm por el momento nada mas
+Dec 09 20:29:38 <elsimio>	este viejo nos puede ayuar un vergo
+Dec 09 20:29:52 <jotamjr>	si se ve que tiene bastante tiempo de andar guerriando en eso
+Dec 09 20:29:55 <fcodiaz>	sinceramente necesitamos de alguien que nos guie 
+Dec 09 20:30:08 <fcodiaz>	y que mejor que alguien que tiene experiencia en otros sistemas
+Dec 09 20:30:14 <fcodiaz>	para que nos diga esto se hace bien asi
+Dec 09 20:30:18 <elsimio>	si
+Dec 09 20:30:28 <fcodiaz>	esto esta mal asi, mejor seria asi de este otro modo
+Dec 09 20:30:39 <fcodiaz>	eso definitivamente necesitamo
+Dec 09 20:30:47 <fcodiaz>	pero necesitamos documentar todo lo que nos diga
+Dec 09 20:31:10 <fcodiaz>	no se si grabar en audio/video cuando se reunan con el
+Dec 09 20:31:12 <fcodiaz>	seria bueno
+Dec 09 20:31:38 <elsimio>	simon
+Dec 09 20:31:52 <elsimio>	ademas q vive algo cerca de mi casa
+Dec 09 20:31:53 <fcodiaz>	y ver de los programas contables que este senor usa, cual es el que a el mas le parece y ver que ideas pordemos sacar de ahi
+Dec 09 20:31:56 <elsimio>	caminando me puedo ir
+Dec 09 20:32:10 <fcodiaz>	pero eso sera cuando estes alla elsimio verdad?
+Dec 09 20:32:12 <fcodiaz>	cuando?
+Dec 09 20:32:21 <fcodiaz>	enero dijiste verdad que vas
+Dec 09 20:32:42 <elsimio>	marzo, 3 meses
+Dec 09 20:32:50 <fcodiaz>	ah ok
+Dec 09 20:32:52 <elsimio>	full nancing time
+Dec 09 20:33:19 <fcodiaz>	algo mas sobre este punto, sino pasamos al punto 3 de la agenda
+Dec 09 20:33:25 <fcodiaz>	sobre la DB, elsimio 
+Dec 09 20:33:35 <fcodiaz>	el diseno, como va la propuesta?
+Dec 09 20:33:36 <elsimio>	voy
+Dec 09 20:33:40 <fcodiaz>	dale
+Dec 09 20:34:20 <elsimio>	bueno para comenzar no la he hecho ni el diseno, ya uqe he estado pensando en un diseno de BDD que en el futuro si queremos meter un nuevo modulo o plugin en dado caso comencemos de 0
+Dec 09 20:34:24 <elsimio>	no toque agregar tablas
+Dec 09 20:34:40 <elsimio>	sino que se pegue al diseno original y unico de una base
+Dec 09 20:34:57 <elsimio>	si, algo complicado suena pero si logramos hacer un diseno como el q tengo en mente
+Dec 09 20:35:08 <elsimio>	puede q nos tardemos en el diseno, pero en la codificada talvez no
+Dec 09 20:35:21 <fcodiaz>	cuando crees que podas plasmar lo que tenes en mente en papel?
+Dec 09 20:35:23 <fcodiaz>	:D
+Dec 09 20:35:28 <elsimio>	jajaja
+Dec 09 20:35:30 <darkness51>	elsimio: en openerp el orm posibilita sobreescribir la clase base de una modulo y hacerle agregados, tal vez eso te ayude como una idea :)
+Dec 09 20:35:50 <elsimio>	si, algo asi he pensado
+Dec 09 20:35:59 <fcodiaz>	eso suena interesante
+Dec 09 20:36:03 <elsimio>	y aqui toco lo de tomar un framework y/o algo creado por nosotros
+Dec 09 20:36:09 <fcodiaz>	ok
+Dec 09 20:36:14 <elsimio>	si creamos algo, tenemos q pensar bien en el diseno de la base
+Dec 09 20:36:16 <darkness51>	aunque realmente, no sería tanto sobreescribir, sino, extender la clase padre
+Dec 09 20:36:25 <elsimio>	por ejemplo
+Dec 09 20:36:35 <elsimio>	me ha venido eso a la mente por el framework que yo manejo aca
+Dec 09 20:36:46 <elsimio>	sacan versiones nuevas y la base siempre es la misma
+Dec 09 20:36:52 <elsimio>	nunca mas tablas ni nuevos campos
+Dec 09 20:37:07 <elsimio>	los mismos, eso significa q se pegaron una quemada de coco pensando en la base
+Dec 09 20:37:21 <elsimio>	pero bueno mas tecnicamente
+Dec 09 20:37:36 <elsimio>	he pensado en lo siguiente
+Dec 09 20:37:45 <elsimio>	contablemente definir (con un contador)
+Dec 09 20:38:04 <elsimio>	que cosas son como entidades o metodos que tienen sus atributos
+Dec 09 20:38:30 <elsimio>	por ejemplo podrian ser usuarios entre los cuales estan clientes, vendedores, etc
+Dec 09 20:38:37 <elsimio>	tienen sus atributos basicos
+Dec 09 20:38:51 <elsimio>	y otras entidades o metodos como una compra, una venta, una partida
+Dec 09 20:39:18 <elsimio>	q tambien tienen sus atributos, fecha, monto, etc
+Dec 09 20:39:36 <elsimio>	y asi definir con un experto en el tema q cosas contablemente tienen atributos
+Dec 09 20:39:46 <elsimio>	entonces una tabla seria como la de entidades o metodos
+Dec 09 20:39:48 <elsimio>	lo basico
+Dec 09 20:39:57 <fcodiaz>	ok
+Dec 09 20:40:07 <elsimio>	y otras tablas q contengan los atributos
+Dec 09 20:40:41 <elsimio>	creo q eso mejor lo dibujare aunque sea en papel
+Dec 09 20:41:03 <elsimio>	y talvez asi me doy a explicar
+Dec 09 20:42:04 <fcodiaz>	si mas o menos creo que tengo la idea de lo que deseas explicar
+Dec 09 20:42:19 <jotamjr>	si estamos con la idea
+Dec 09 20:42:29 <fcodiaz>	pero creo que seria mejor si lo vemos en papel, no se los demas
+Dec 09 20:42:45 <elsimio>	simon
+Dec 09 20:42:47 <jotamjr>	si obviamente debe llegar el momento en el cual se documente todo
+Dec 09 20:42:52 <darkness51>	pues por lo menos yo, sigo un poco la idea, pero en papel sería mejor
+Dec 09 20:43:01 <fcodiaz>	si definitivamente es lo mejor
+Dec 09 20:43:12 <elsimio>	si lo hare en papel
+Dec 09 20:43:17 <elsimio>	vere si puedo el finde
+Dec 09 20:43:21 <elsimio>	ya q como ya no bebo
+Dec 09 20:43:28 <fcodiaz>	y cuesta un poco el sentarse a escribir, pero creo que es lo mejor para el proyecto
+Dec 09 20:43:40 <elsimio>	si lo hare
+Dec 09 20:43:46 <elsimio>	ese dibujo no me costaria
+Dec 09 20:43:50 <fcodiaz>	dado que si alguien a medio camino se retira o alguien entra al grupo le sera mas facil si esta documentado
+Dec 09 20:44:00 <fcodiaz>	ok
+Dec 09 20:44:18 <fcodiaz>	algo mas que quieras agregar elsimio ?
+Dec 09 20:44:43 <elsimio>	no, solo q hare ese diseno y claro estaria basado en algo desde 0
+Dec 09 20:44:50 <fcodiaz>	ok
+Dec 09 20:44:54 *	Received a CTCP CLIENTINFO from darkness51
+Dec 09 20:44:56 <fcodiaz>	quedamos pendientes con esto entonces
+Dec 09 20:45:04 <elsimio>	pero si lo logro plasmar como he pensado en mi brillante mente
+Dec 09 20:45:08 <elsimio>	serviria much
+Dec 09 20:45:23 *	fcodiaz ve que elsimio se esta quedando calvo, por eso le brilla
+Dec 09 20:45:35 <jotamjr>	jajaja
+Dec 09 20:45:39 <darkness51>	jajaja
+Dec 09 20:45:55 <fcodiaz>	bueno, jovenes, un par de puntos adicionales
+Dec 09 20:46:00 <elsimio>	aja
+Dec 09 20:46:00 <fcodiaz>	que me gustaria tratar
+Dec 09 20:46:01 <fcodiaz>	rapido
+Dec 09 20:46:04 <fcodiaz>	vacaciones
+Dec 09 20:46:19 <fcodiaz>	no creo que vamos  a estar en reuniones a media navidad o fin de anio o si?
+Dec 09 20:46:30 <elsimio>	creo que no
+Dec 09 20:46:35 <elsimio>	unos agarraremos zumba
+Dec 09 20:46:37 <jotamjr>	vacaciones /me las necesita :)
+Dec 09 20:46:44 <darkness51>	fcodiaz: yo tengo internet en cualquier lado que voy, asi que por mi no hay problema
+Dec 09 20:46:45 <fcodiaz>	hacemos reunion la otra semana o no?
+Dec 09 20:47:00 <jotamjr>	yo digo que si
+Dec 09 20:47:08 <elsimio>	la otra si
+Dec 09 20:47:11 <fcodiaz>	yo tambien, antes de tomarno un descanzo
+Dec 09 20:47:16 <jotamjr>	ya la ultima definitivamente no
+Dec 09 20:48:13 <fcodiaz>	ok entonces seguimos la proxima semana con reunion y trabajo
+Dec 09 20:48:21 <jotamjr>	sep
+Dec 09 20:48:29 <fcodiaz>	un punto mas, algun libro de contabilidad que recomienden?
+Dec 09 20:48:40 <fcodiaz>	seria bueno que si vamos a hacer esto, sepamos lo basico
+Dec 09 20:48:47 <fcodiaz>	al menos a mi me gustaria leer un poco sobre el tema
+Dec 09 20:49:03 <fcodiaz>	alguien sabe que libro recomendar, sino les dejo de tarea
+Dec 09 20:49:08 <fcodiaz>	y que manden a la lista
+Dec 09 20:49:20 <fcodiaz>	emonge, por cierto, puedes agregar a darkness51 a la lista de solicont
+Dec 09 20:49:22 <fcodiaz>	please
+Dec 09 20:49:38 <fcodiaz>	y yo no tengo nada mas que agregar
+Dec 09 20:49:40 <jotamjr>	voy a buscar la curricula de Sistemas Contables para ver la bibilografía este finde
+Dec 09 20:49:51 <fcodiaz>	gracias jotamjr 
+Dec 09 20:50:09 <fcodiaz>	alguien mas jovenes
+Dec 09 20:50:14 <elsimio>	no
+Dec 09 20:50:16 <fcodiaz>	algo mas que necesitemos tratar?
+Dec 09 20:50:22 <fcodiaz>	emonge?
+Dec 09 20:50:29 <fcodiaz>	gracias por la creacion de la lista
+Dec 09 20:51:02 <fcodiaz>	alguien mas?
+Dec 09 20:51:08 <fcodiaz>	alguien quiere agregar algo mas
+Dec 09 20:51:13 <fcodiaz>	sino damos por terminada la reunion
+Dec 09 20:51:27 <fcodiaz>	darkness51?
+Dec 09 20:51:30 <fcodiaz>	elsimio?
+Dec 09 20:51:33 <fcodiaz>	emonge?
+Dec 09 20:51:37 <fcodiaz>	jotamjr?
+Dec 09 20:51:38 <emonge>	entonces?
+Dec 09 20:51:45 <fcodiaz>	aja
+Dec 09 20:51:47 <darkness51>	no, de momento nada que agregar
+Dec 09 20:51:53 <jotamjr>	nada
+Dec 09 20:51:55 <jotamjr>	only
+Dec 09 20:52:00 <emonge>	fcodiaz, si se puede
+Dec 09 20:52:01 <elsimio>	nada
+Dec 09 20:52:05 <emonge>	correo?
+Dec 09 20:52:16 <jotamjr>	este emonge se acaba de despertar xD
+Dec 09 20:52:20 <fcodiaz>	asi parece
+Dec 09 20:52:24 <emonge>	lo siento, estoy trabajando
+Dec 09 20:52:26 <jotamjr>	jajaja
+Dec 09 20:52:28 <fcodiaz>	emonge, favor agregar a darkness51 
+Dec 09 20:52:32 <emonge>	si
+Dec 09 20:52:33 <fcodiaz>	darkness51, pasale tus datos a emonge 
+Dec 09 20:52:35 <emonge>	mail?
+Dec 09 20:52:42 <emonge>	solo el mail
+Dec 09 20:52:43 <fcodiaz>	please
+Dec 09 20:52:49 <darkness51>	darkness51 en gmail
+Dec 09 20:52:52 <jotamjr>	estado civil, no tarjeta, etc
+Dec 09 20:52:59 <fcodiaz>	jajajaa
+Dec 09 20:53:00 <fcodiaz>	ok jovenes
+Dec 09 20:53:00 <emonge>	jotamjr, ya vas de gay
+Dec 09 20:53:11 <fcodiaz>	seguimos en contacto entonce
+Dec 09 20:53:14 <jotamjr>	emonge: ese serías vos pidiendo eso
+Dec 09 20:53:19 <jotamjr>	commit!
+Dec 09 20:53:20 <fcodiaz>	quedamos para una proxima reunion la otra semana
+Dec 09 20:53:25 <jotamjr>	sep
+Dec 09 20:53:33 <jotamjr>	espero ya tener algo la otra semana
+Dec 09 20:53:36 <jotamjr>	una cosa
+Dec 09 20:53:44 <fcodiaz>	adelante
+Dec 09 20:53:50 <jotamjr>	los requerimientos, seguimos en el doc de elsimio
+Dec 09 20:53:55 <elsimio>	simon
+Dec 09 20:53:58 <jotamjr>	o se abre un espacio en la wiki?
+Dec 09 20:54:09 <fcodiaz>	ya esta en el wiki
+Dec 09 20:54:16 <jotamjr>	a bueno :)
+Dec 09 20:54:27 <fcodiaz>	https://github.com/fcodiaz/Solicont/wiki/Lista-de-caracteristicas-del-proyecto
+Dec 09 20:54:49 <fcodiaz>	ahi esta bien jotamjr ?
+Dec 09 20:55:17 <jotamjr>	si ya lo vi
+Dec 09 20:55:22 <fcodiaz>	perfecto
+Dec 09 20:55:24 <fcodiaz>	algo mas jovenes?
+Dec 09 20:56:01 <darkness51>	la agenda para la proxima semana?
+Dec 09 20:56:19 <fcodiaz>	darkness51, en progreso
+Dec 09 20:56:25 <fcodiaz>	la minuta se las paso manana en la lista
+Dec 09 20:56:43 <fcodiaz>	y si tienen algun punto para la agenda tambien pasenlo a la lista
+Dec 09 20:56:50 <fcodiaz>	o lo agregan al wiki 
+Dec 09 20:56:59 <jotamjr>	ok!
+Dec 09 20:57:04 <fcodiaz>	gracias jovenes
+Dec 09 20:57:08 <fcodiaz>	gracias por su tiempo
+Dec 09 20:57:23 <fcodiaz>	aun estamos dando baby-steps, pero pronto comenzaremos a correr
+Dec 09 20:57:33 <fcodiaz>	un saludos y que pasen buenas noches
+Dec 09 20:58:15 <jotamjr>	aunque creo que nos daremos un vergazo antes de correr xD
+Dec 09 20:58:23 <fcodiaz>	eso es posible
+Dec 09 20:58:24 <emonge>	saludos
+Dec 09 20:58:33 <darkness51>	saludos
+Dec 09 20:58:36 <jotamjr>	vemos!
+Dec 09 20:58:37 <fcodiaz>	buenas noches
+Dec 09 20:59:10 Python interface unloaded
+**** ENDING LOGGING AT Thu Dec  9 20:59:10 2010
+
