@@ -1,0 +1,215 @@
+PHP Coding Style
+
+By Kevin Waterson <kevin@phpro.org>
+
+    * Abstract
+    * Comments
+    * Class and Function Comments
+    * Short tags
+    * Indent Style
+    * studley caps
+    * CONSTANTS
+    * Line length
+    * Quoting
+    * Headers
+    * Summary
+
+Abstract
+
+The good thing about standards, is there are so many of them. This old adage rings true for most computer technologies and methodologies. It is no surprise that holy wars run unchecked on many forums and mailing lists when it comes to the correct coding style for PHP. Well, the good news is, you are all right, there is no one-style-fits-all method of writing code. It basically comes down to legibility. That is, how easy the code is to read.
+
+Much of the furor revolves about indent style. Four spaces? Tabs? New lines for { }. So the war wages unchecked. This article is for those who wish to win these wars. Lets have a look at some of these styles and where these styles come from. Many coding styles have their origins in other languages, mostly C and later C++ and we have inherited a soup of styles all thrown into a large pot.
+Comments
+
+Regardless of the style of coding you use, a large portion of your code should be comments. Each file of you create, wether it is a single script or a whole application with many scripts or classes, should begin with a code block describing the files purpose, the version number, the author and copyright message. The style of the comments has become the first cause of concern for many. PHP support three types of comments and they are shown below.
+
+<?php
+// This is a comment c++ style
+
+/* This is a comment c style*/
+
+# this is a comment unix shell style
+?>
+
+Each of these comments has its own uses, but it should be stressed here that consistancy is is the key to successful commenting. If you start a script of project with one type of comment, be sure to use that style throughout the script or applications. This will ensure ease of reading. Remember, it will not just be you that has to read it. Lets look at each comment type a little beginning with the c++ style comments. The c++ style or // comments are a single line comment and as implied, only comment to the end of the current line. This can be useful for small notes, to yourself and others, about a particular line of code. It can also be added after some code on the end of the same line like in the example below.
+
+<?php
+// this comment only does a single line
+echo "hello world";
+
+echo "goodbye cruel world"; // a c++ comment can go after some code
+?>
+
+As you can see, this can be quite handy, and for those of us using *nix operating systems we have long been using the forward slash key for paths so this has a natural feel to it and its nice and quick. Speaking of *nix, we also have the unix shell style of comment or the # character. Again, those familiar with *nix will find this familiar too. The # character acts much the same as the c++ style comment // in commenting code. Here we see the same behavior.
+
+<?php
+# this comment only does a single line
+echo "hello world";
+
+echo "goodbye cruel world"; #a unix shell comment 
+?>
+
+Not so different. However, due to its box like shape, many have used this for creating comment boxes to house their comments in. Some say this is an abomination and others like to have things compartmentalized. Here we see a box comment.
+
+<?php
+##################################################
+###                                            ###
+###    this comment is in a box                ###
+###                                            ###
+##################################################
+echo "hello world";
+?>
+
+So, you may run into code sometimes filled with these little boxes... Then we have the last of the comments and possibly the most flexible, the c style comment /* */. The biggest advantage of this style of comment is that it spans multiple lines, so you can comment out anything from a single line to whole block of code. C style comments begin with /* and finish with */. Lets see it in action.
+
+<?php
+/* This is a single line comment */
+echo "hello world";
+
+/*
+* This is a multiple line
+*
+* comment in c style
+*/
+?>
+Class and Function Comments
+
+After you have chose you style of comments, we hope that you use them often, remember, use only one style throughout your script or project. In this article we will be using c style comments for our examples because of its flexibility and after all, PHP is a very C based language. Each Class or function should be preceded by a comment block. That is, a block of information about the class or function. Here we show a typical comment block showing what the function does, the author, what args the function takes, and what it returns.
+
+<?php
+/**
+*
+* Function to increment a number
+*
+* @author Kevin Waterson <-kevin@phpro.org->
+*
+* @copyright Kevin Waterson 2006
+*
+* @version 0.1
+*
+* @access private
+*
+* @var INT The number to be incremented
+*
+* @return INT The incremented number
+*/
+private function inc_num($num){
+    /*** increment the number ***/
+    return $num++;
+}
+?>
+
+From the code above we can instantly know much about this function. Everything from who wrote it to what sort of value it returns. Regardless of the language you are coding in, it is considered good style to have this sort of comments. You will also note within the function itself is another comment telling you what the line of code does.
+Short tags
+
+Never use short tags, they should never have been included in the first place and if the PHP devel removed them in future versions the world would be a better place. Short PHP tags are tags like <? ?>. You should not use them because they are not portable and are easily confused with xml <?xml ?> tags. When using PHP the correct tags are <?php ?>. Dont be lazy.
+Indent Style
+
+This more than any other facet of programming has caused more and bloodier wars than any other. Indents styles have been inherited by most languages from four basic c programming indent styles. The four types are..
+
+    * K&R style
+    * Allman style
+    * Whitesmiths style
+    * GNU style
+
+The K&R style is named after Kernighan & Ritchie of c programming fame. Thier examples used this style of code with eight spaces or a tab and looks like this.
+
+<?php
+if (condition) {
+    do_something();
+}
+?>
+
+The Allman style, named after Eric Allman of Berkely/BSD renown, has eight spaces and his style like this.
+
+<?php
+if (cond)
+{
+        do_something();
+}
+?>
+
+Whitesmiths style, named from examples that came with Whitesmiths c compiler uses 8 spaces and sometimes 4. This type makes matching of { } very simple.
+
+<?php
+if (cond)
+        {
+        do_something(); 
+        }
+?>
+
+Finally, GNU sytle came about with GNU Emacs and is similar to the Whitesmiths style and uses four spaces for indent.
+
+<?php
+if (cond)
+  {
+    do_something();
+  }
+?>
+
+A word in favour of using tabs over spaces. Tabs are dynamic and be adjust with the editor. Spaces however, are constant. So if a document is tabbed, you can simply change this to whatever spacing you like. eg: with vi(m) it is simply a matter of
+:set ts=4
+to have a tab space = 4 spaces.
+studley caps
+
+Who is this Studley guy any how? Well, since the dawn of computer languages holy wars have also been fought over what the correct format is for function names and variable names. Rumour has it, the name Studley Caps came about from kiddies wanting to look BiG BuY RaNDoMlY UpPer CaSiNg WorDs. Now of course they use the top of the kb. So the name has stuck whatever the origin. These days it pertains to how variable names and function names are cased. PHP has mostly been consistant here with function names like
+studley_caps()
+so when it comes to coding your script, it may be nice to keep within this convention. Here are some examples of how variable names and function names may look.
+
+$studley_caps = TRUE;
+
+$studleycaps = TRUE;
+
+$studleyCaps = TRUE;
+
+function StudleyCaps(){}
+?>
+
+All of these are correct. Once again it comes down to legibility. Java/script has found the studleyCaps version preferable but this can lead to hard reading for long variable names eg: a variable that holds a tempory value of a file name may be
+$tempFileNameValue
+This is not wrong but can be difficult when put next to
+$temp_file_name_value
+Once again, if you choose a particular method, make sure it is consistant.
+CONSTANTS
+
+Typically constants are in upper case. This is so they are easily identified as constants and not variables. In PHP there are the defined constants which take the form of CONSTANT or preceded buy an underscore _CONSTANT. PHP has some predefined constants of the form __CONSTANT__. Remember consistancy when you use constants and all will be well.
+Line Length
+
+From days of yore we have inherited the 80 character line standard. This is what old terminals maximum width was. These days we can be as wide as our resolution will allow, but remember, not everybody is squinting at a monitor at a resolution of 1680 x 1050.
+Quoting
+
+This really should not need to be said, and is covered in the PHP manual. Use single quotes for literals, and double quotes for variable substitution.
+Headers
+
+When creating a PHP file, it should be clear what the purpose of the file is. If it is a class for database abstraction, then it should be noted along with information about author, version in CVS or any other data.
+<?php
+/**
+ * Database class 
+ *
+ * Database abstraction layer for connecting to MySQL ... 
+ *
+ * @copyright  2007 Fred Tech
+ *
+ * @license    LGPL 
+ *
+ * @version    CVS: $Id:$
+ *
+ * @author     Fred Foobar&lt;fred@example.com&gt;
+ *
+ * @since      File available since Release 1.2.0i
+ *
+ */
+?>
+Summary
+
+So, which one is right for PHP? Well, while some will point to PEAR code or quote Best Practices or whatever, to be sure your coding style is correct ask yourself these questions.
+
+    * Is the code well commented?
+    * Is the coding style consistant?
+    * Can I easily follow the code?
+    * Can others easily follow the code?
+    * Is it easy to debug?
+
+If you answer Yes to all of these, then your coding style is correct. Now, to set vi(m) tabstop and shiftwidth
+set expandtab set shiftwidth=4 set softtabstop=4 set tabstop=4
+
