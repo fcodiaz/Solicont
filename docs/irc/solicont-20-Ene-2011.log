@@ -1,0 +1,254 @@
+**** BEGIN LOGGING AT Thu Jan 20 19:51:33 2011
+
+Jan 20 19:51:38 <fdiaz>	saludos jovenes
+Jan 20 20:00:08 <fdiaz>	ping elsimio emonge 
+Jan 20 20:00:14 <elsimio>	??
+Jan 20 20:00:31 <fdiaz>	que ondas elsimio 
+Jan 20 20:00:38 <fdiaz>	listo
+Jan 20 20:00:39 <elsimio>	aqwui
+Jan 20 20:01:09 <elsimio>	creo, si viene otro
+Jan 20 20:01:26 <fdiaz>	ok
+Jan 20 20:01:41 <fdiaz>	jotamjr, dijo que no podra reunirse sino hasta dentro de unas dos semanas
+Jan 20 20:02:11 <fdiaz>	y de cisko no he sabido nada
+Jan 20 20:02:24 <elsimio>	andan perdidos
+Jan 20 20:02:25 <fdiaz>	creo que seria bueno mandar un correo por medio de la lista para ver en que estamos
+Jan 20 20:02:29 <fdiaz>	si eso veo
+Jan 20 20:02:39 <fdiaz>	bueno entonces tenes el documento de la DB 
+Jan 20 20:02:49 <elsimio>	una foto nomas
+Jan 20 20:02:55 <fdiaz>	link?
+Jan 20 20:03:17 <elsimio>	no lo he subido a ningun sitio, es un pdf veamos como lo subo
+Jan 20 20:03:23 <fdiaz>	ok
+Jan 20 20:03:30 <fdiaz>	mientras talvez viene alguien
+Jan 20 20:03:33 <fdiaz>	o mandalo a la lista
+Jan 20 20:03:45 <fdiaz>	o en github
+Jan 20 20:04:00 <elsimio>	es q no es formal para subirlo ahi
+Jan 20 20:04:09 <elsimio>	perate quiero ver donde lo pongo
+Jan 20 20:04:12 <elsimio>	ya se
+Jan 20 20:04:22 <fdiaz>	ok
+Jan 20 20:10:45 <elsimio>	http://gente.debian.org.sv/~elsimio/solicont_er1.pdf
+Jan 20 20:11:02 <fdiaz>	cool
+Jan 20 20:11:06 <elsimio>	lo tengo q mejorar y/o pasar aunque sea a DB4Designer
+Jan 20 20:11:10 <elsimio>	y poner otras talbas
+Jan 20 20:11:31 <elsimio>	ok abrilo y te explico mas o meons
+Jan 20 20:11:37 <elsimio>	cada tabla
+Jan 20 20:11:57 <fdiaz>	ya
+Jan 20 20:11:59 <fdiaz>	listo
+Jan 20 20:12:30 <fdiaz>	ya lo tengo abierto
+Jan 20 20:13:16 <elsimio>	ok asi ve
+Jan 20 20:13:36 <fdiaz>	aja
+Jan 20 20:13:49 <elsimio>	perame quiero tener 2 ventanitas abiertas
+Jan 20 20:13:52 <fdiaz>	ok
+Jan 20 20:15:08 <elsimio>	ok comenzando con la mas facil
+Jan 20 20:15:23 <fdiaz>	dale
+Jan 20 20:15:27 <fdiaz>	users
+Jan 20 20:15:31 <elsimio>	la de user, ahi lo que sabemos id, nombre, user, pass, mail, lenguaje por defecto
+Jan 20 20:15:41 <elsimio>	si esta baneado, ultimo loggeo
+Jan 20 20:15:46 <fdiaz>	ok
+Jan 20 20:16:11 <elsimio>	sesiones relacionada con la de usuarios
+Jan 20 20:16:31 <elsimio>	una como cookie y la fecha en unix time
+Jan 20 20:16:39 <elsimio>	como para tener registros de lso q estan loggeados
+Jan 20 20:16:50 <fdiaz>	ok
+Jan 20 20:17:33 <elsimio>	como supuestamente en un sistema contable no todos tienen que tener acceso a todo
+Jan 20 20:17:39 <elsimio>	necesitamos tener roles
+Jan 20 20:17:44 <elsimio>	y mas aun si lo queremos multiempresa
+Jan 20 20:18:07 <fdiaz>	definitivamente
+Jan 20 20:18:08 <elsimio>	entonces en la de roles algo como un id unico de rol
+Jan 20 20:18:15 <elsimio>	el nombre del rol
+Jan 20 20:18:36 <elsimio>	un como id propietario o admin de ese rol y claro el id de la empresa
+Jan 20 20:18:45 <fdiaz>	ok
+Jan 20 20:18:49 <elsimio>	hay campos q no los he agregado ahi
+Jan 20 20:18:56 <elsimio>	que solo en la mente lo tengo
+Jan 20 20:19:04 <fdiaz>	hay que extraerlos de ai
+Jan 20 20:19:05 <elsimio>	y en roles miembros
+Jan 20 20:19:05 <fdiaz>	ahi
+Jan 20 20:19:22 <elsimio>	roles_miembros relacionados con esa de roles
+Jan 20 20:19:46 <elsimio>	donde si hay un rol llamado digitadores
+Jan 20 20:19:51 <elsimio>	estara creado en roles
+Jan 20 20:20:11 <elsimio>	pero en roles_miembros guardar el id del usuario y q pertenece a ese rol
+Jan 20 20:20:35 <elsimio>	esa es una tabla de muchos a muchos
+Jan 20 20:20:36 <fdiaz>	ok
+Jan 20 20:20:43 <elsimio>	un usuario puede estar en varios roles
+Jan 20 20:20:48 <elsimio>	por eso solo los 2 id
+Jan 20 20:21:23 <elsimio>	saltemonos a la de entidades
+Jan 20 20:21:26 <fdiaz>	ok
+Jan 20 20:21:39 <elsimio>	algo que comente por si queremos hacer un sistema que en el futuro no toque estar cambiando mucho
+Jan 20 20:21:51 <elsimio>	definir con otra mara y un contador
+Jan 20 20:21:56 <fdiaz>	que serian las entidades?
+Jan 20 20:22:10 <elsimio>	que podrian ser entidades, como por ejemplo una compra es una entidad
+Jan 20 20:22:12 <fdiaz>	eso si necesitamos y urge
+Jan 20 20:22:24 <elsimio>	porque tiene muchos metodos por asi decirlo
+Jan 20 20:22:25 <fdiaz>	ok
+Jan 20 20:22:34 <fdiaz>	que en contabilidad se define como un movimiento?
+Jan 20 20:22:38 <elsimio>	una compra, venta, X documento
+Jan 20 20:22:40 <fdiaz>	es lo mismo o no?
+Jan 20 20:22:41 <elsimio>	exacto
+Jan 20 20:23:14 <elsimio>	entonces en entidades solo guardar el guid, tipo de entidad, definir subtipos
+Jan 20 20:23:39 <elsimio>	el propietario o persona que hizo ese movimiento u objeto viendolo asi como programador
+Jan 20 20:24:11 <elsimio>	fecha de creacion, actualizacion, si esta habilitado y un acceso
+Jan 20 20:24:30 <fdiaz>	ok
+Jan 20 20:24:36 <elsimio>	en tipo, subtipo guardar los id unicamente
+Jan 20 20:24:54 <elsimio>	en los subtipos
+Jan 20 20:25:19 <elsimio>	guardar el id, el nombre del subtipo
+Jan 20 20:25:30 <elsimio>	que serian los nombres de los movimientos o todo lo contable
+Jan 20 20:25:35 <fdiaz>	id de las entidades
+Jan 20 20:25:45 <fdiaz>	ok
+Jan 20 20:25:51 <elsimio>	no, ahi los id de los subtipos y nombres
+Jan 20 20:26:03 <elsimio>	y estos ids irian guardados en la tabla entidades
+Jan 20 20:26:15 <elsimio>	dependiendo del subtipo
+Jan 20 20:26:18 <elsimio>	o tipo
+Jan 20 20:26:40 <elsimio>	en la de relaciones
+Jan 20 20:26:53 <fdiaz>	que es un subtipo?
+Jan 20 20:27:13 <fdiaz>	y tipo?
+Jan 20 20:27:32 <fdiaz>	ejemplos?
+Jan 20 20:27:37 <elsimio>	pues un tipo lo podriamos ver como usuarios
+Jan 20 20:27:48 <elsimio>	usuarios, movimientos, empresas
+Jan 20 20:27:51 <fdiaz>	ok
+Jan 20 20:27:54 <elsimio>	un usuario tiene metodos
+Jan 20 20:28:02 <elsimio>	movimientos tienen metodos y multiempresa tambien
+Jan 20 20:28:22 <elsimio>	si creamos una factura siempre le podemos poner tipo objeto
+Jan 20 20:28:26 <elsimio>	subtipo factura
+Jan 20 20:28:37 <elsimio>	otra cosa puede ser tipo objeto y subtipo nota de remisino
+Jan 20 20:28:39 <elsimio>	cosas asi
+Jan 20 20:29:00 <fdiaz>	y por que tipo objeto? y no tipo factura
+Jan 20 20:29:15 <fdiaz>	y que el subtipo sea algo como factura de compra
+Jan 20 20:29:19 <fdiaz>	factura de devolucion
+Jan 20 20:29:24 <fdiaz>	?
+Jan 20 20:29:33 <elsimio>	pq puede q ocupemos manejar en algun caso a un usuario como una entidad
+Jan 20 20:29:39 <elsimio>	y no solo como un simple usuario
+Jan 20 20:30:16 <fdiaz>	ok
+Jan 20 20:30:28 <elsimio>	bueno asi lo veo, sino luego podemos mejorar eso
+Jan 20 20:30:44 <fdiaz>	ok
+Jan 20 20:30:48 <elsimio>	pq si es factura de devolucion para q meterla como tipo objeto
+Jan 20 20:30:54 <elsimio>	si ya sabemos q se puede desglosar mas
+Jan 20 20:31:11 <elsimio>	pero bueno
+Jan 20 20:31:39 <fdiaz>	que mas?
+Jan 20 20:32:29 <elsimio>	en relaciones un id incremental, el id de un objeto, el tipo de relacion q tiene con el otro id
+Jan 20 20:32:50 <elsimio>	aunque ahi estoy algo confuso
+Jan 20 20:32:53 <fdiaz>	como por ejemplo?
+Jan 20 20:32:57 <elsimio>	pq he pensado en otras 2 tablas
+Jan 20 20:34:09 <elsimio>	q estarian relacionadas con la de entidades
+Jan 20 20:34:26 <elsimio>	una q guarde todo el texto
+Jan 20 20:34:32 <elsimio>	un simple id y un string
+Jan 20 20:34:43 <elsimio>	ahi iria el texto de todo
+Jan 20 20:35:03 <elsimio>	y una data q haga la relacion entre entidades y esa de strings
+Jan 20 20:35:15 <fdiaz>	ok
+Jan 20 20:35:17 <elsimio>	la de entidades solo tiene guardada los ids
+Jan 20 20:35:26 <fdiaz>	esas faltan verdad
+Jan 20 20:35:33 <elsimio>	entonces otra tabla que ahi no he agregado
+Jan 20 20:35:33 <elsimio>	si
+Jan 20 20:35:55 <elsimio>	entidades -> datos -> strings
+Jan 20 20:36:03 <elsimio>	como por ejemplo
+Jan 20 20:36:24 <elsimio>	una factura tiene fecha, usuario q la hizo, vendedor, articulos
+Jan 20 20:36:34 <elsimio>	entidad solo es una
+Jan 20 20:36:40 <elsimio>	pero tiene muchas entradas
+Jan 20 20:36:50 <elsimio>	por cada caracteristica de la entidad (factura)
+Jan 20 20:37:26 <elsimio>	guardar datos o ids en esa tabla como de datos
+Jan 20 20:37:31 <elsimio>	y en strings guardar el texto en si
+Jan 20 20:37:33 <elsimio>	por ejemplo
+Jan 20 20:37:37 <elsimio>	factura 1 tiene
+Jan 20 20:37:49 <elsimio>	usuario melvyn, articulo x
+Jan 20 20:38:12 <elsimio>	entonces en  los datos guardar un registro q relacione la factura 1 con usuario melvyn
+Jan 20 20:38:26 <elsimio>	y otro registro q relacione la factura 1 con articulo x
+Jan 20 20:38:55 <elsimio>	y en strings guardar el nombre del articulo o alguna nota adicional, etc
+Jan 20 20:39:22 <fdiaz>	ok
+Jan 20 20:39:31 <elsimio>	son las tablas q miro asi como mas de pensar
+Jan 20 20:39:35 <elsimio>	por si en el futuro queremos que se yo
+Jan 20 20:40:02 <elsimio>	agregar algo que no este planeado
+Jan 20 20:40:09 <fdiaz>	eso de seguro va a pasar
+Jan 20 20:40:10 <elsimio>	solo se agrega como subtipo
+Jan 20 20:40:19 <elsimio>	y ahi vamos
+Jan 20 20:40:27 <elsimio>	no tenemos q modificar ni agregar campos, eso creo
+Jan 20 20:40:31 <fdiaz>	ok
+Jan 20 20:40:42 <fdiaz>	me parece
+Jan 20 20:40:53 <fdiaz>	lo que veo es que la tabla de entidades se va a llenar rapido
+Jan 20 20:41:05 <fdiaz>	por que va a contener casi cualquier objeto moviendose en el sistem
+Jan 20 20:41:06 <fdiaz>	aa
+Jan 20 20:41:12 <elsimio>	por eso se ha pensado en postgresql
+Jan 20 20:41:23 <elsimio>	la q mas se llenaria seria strings y datas
+Jan 20 20:41:35 <elsimio>	pero valeeso
+Jan 20 20:41:36 <fdiaz>	tambien
+Jan 20 20:41:47 <elsimio>	y luego se veria eso de system log
+Jan 20 20:41:51 <elsimio>	tabla de empresas
+Jan 20 20:42:03 <elsimio>	configuraciones de las empresas
+Jan 20 20:42:08 <elsimio>	en otrastablas
+Jan 20 20:42:14 <fdiaz>	seria bueno que todos los nombres una vez se cree la DB sean o en espanol o ingles pero no mezcla
+Jan 20 20:42:28 <fdiaz>	ademas creo que seria bueno tomar un standar de nombres
+Jan 20 20:42:28 <elsimio>	simon, ya vamos a pensar en q
+Jan 20 20:43:07 <fdiaz>	ok enterado
+Jan 20 20:43:09 <elsimio>	simon
+Jan 20 20:43:26 <elsimio>	hay q anotar lo q escribi para no estar repitiendo
+Jan 20 20:43:27 <fdiaz>	entonces puedo subir esto a github
+Jan 20 20:43:31 <elsimio>	y luego con un poquito de mas tiempo
+Jan 20 20:43:38 <fdiaz>	lo pondre en el log de esta reunion
+Jan 20 20:43:40 <elsimio>	pongo todas las tablas y campos q no he agregado
+Jan 20 20:43:50 <fdiaz>	ok
+Jan 20 20:44:02 <elsimio>	y con relaciones para que medio se entienda
+Jan 20 20:44:07 <elsimio>	talvez me captaste la idea
+Jan 20 20:44:21 <fdiaz>	si seria bueno tener las relaciones de las tablas 
+Jan 20 20:44:36 <fdiaz>	completas para, a mi me gustaria poder hacer un prototipo
+Jan 20 20:44:41 <fdiaz>	en el que nos podamos comenzar a basar
+Jan 20 20:44:46 <fdiaz>	para ir armando cosas
+Jan 20 20:44:51 <fdiaz>	como por ejemplo
+Jan 20 20:44:55 <fdiaz>	si la DB ya esta lista
+Jan 20 20:45:06 <fdiaz>	que tenamos una forma y solo una forma en php para acceder a la DB
+Jan 20 20:45:13 <fdiaz>	como un framework para la DB
+Jan 20 20:45:17 <elsimio>	simon
+Jan 20 20:45:27 <fdiaz>	asi sabemos que nadie puede acceder a ella haciendo sql directos
+Jan 20 20:45:33 <fdiaz>	sino que pasen por este framework
+Jan 20 20:45:35 <elsimio>	exacto
+Jan 20 20:45:41 <fdiaz>	e igual para los otros elementos del sistema
+Jan 20 20:45:58 <elsimio>	y teniendo un esquema de base definido
+Jan 20 20:46:03 <elsimio>	se puede crear el core
+Jan 20 20:46:05 <fdiaz>	por seguridad y para estandarizar lo que se hara
+Jan 20 20:46:12 <fdiaz>	yo creo
+Jan 20 20:46:13 <elsimio>	el core para funciones basica
+Jan 20 20:46:17 <fdiaz>	asi es
+Jan 20 20:46:23 <fdiaz>	como los accesos a la DB
+Jan 20 20:46:28 <fdiaz>	log del sistema
+Jan 20 20:46:33 <fdiaz>	configuracion
+Jan 20 20:46:35 <elsimio>	obtener_entidad($id_factura);
+Jan 20 20:46:35 <fdiaz>	roles
+Jan 20 20:46:37 <fdiaz>	usuarios
+Jan 20 20:46:38 <fdiaz>	etc
+Jan 20 20:46:51 <elsimio>	y por ejemplo con eso de obtener entidad extraes todos los datos de la factura
+Jan 20 20:46:58 <elsimio>	y asi sucesivamente
+Jan 20 20:47:11 <fdiaz>	eso seria bueno
+Jan 20 20:47:28 <fdiaz>	me parece esa idea
+Jan 20 20:47:29 <fdiaz>	ok
+Jan 20 20:47:35 <fdiaz>	entonces, nadie mas vino
+Jan 20 20:47:40 <elsimio>	subi eso y luego vemos lo demas
+Jan 20 20:47:44 <fdiaz>	yeap
+Jan 20 20:47:45 <elsimio>	no nadie
+Jan 20 20:47:50 <fdiaz>	yo subo el log del chat
+Jan 20 20:47:54 <elsimio>	chevere
+Jan 20 20:47:58 <elsimio>	seguire viendo inceptio
+Jan 20 20:47:59 <fdiaz>	y si queres pongo este diagrama en github
+Jan 20 20:48:04 <elsimio>	si queres
+Jan 20 20:48:08 <elsimio>	luego lo sustituimos
+Jan 20 20:48:12 <fdiaz>	para comenzar con algo
+Jan 20 20:48:16 <fdiaz>	asi vamos discutiendo
+Jan 20 20:48:24 <fdiaz>	y mejorandolo en los dias siguientes
+Jan 20 20:48:34 <elsimio>	ok
+Jan 20 20:48:56 <fdiaz>	algo mas
+Jan 20 20:49:08 <elsimio>	no
+Jan 20 20:49:27 <fdiaz>	bueno yo no tengo nada mas
+Jan 20 20:49:40 <fdiaz>	lo que si quiza voy a buscar info sobre estandares
+Jan 20 20:49:46 <fdiaz>	para progrmacion, nombres, etc
+Jan 20 20:50:00 <fdiaz>	y ya comenzar, con lo que tenemos, un diseno de un prototipo
+Jan 20 20:50:00 <elsimio>	si, sino yo los pongo luego
+Jan 20 20:50:04 <fdiaz>	para tener algo que presentar
+Jan 20 20:50:11 <elsimio>	esa idea la he retomado de sistemas que he visto aqui en e lbanco
+Jan 20 20:50:15 <fdiaz>	vos tenes una imagen de como se debe ver el sistema?
+Jan 20 20:50:22 <fdiaz>	pantallazos?
+Jan 20 20:50:36 <elsimio>	eso todavia no
+Jan 20 20:50:42 <fdiaz>	pero alguna idea
+Jan 20 20:50:57 <fdiaz>	por que seria bueno comenzar a armar un esqueleto de lo que deseamos
+Jan 20 20:51:51 <fdiaz>	ok entonces quedamos asi
+Jan 20 20:51:55 <elsimio>	ok
+Jan 20 20:51:59 <fdiaz>	yo paso la info a github
+Jan 20 20:52:02 <fdiaz>	mas tarde o manana
+Jan 20 20:52:06 <elsimio>	ok
+Jan 20 20:52:10 <fdiaz>	y luego les paso el dato en el chat o por la lista
+Jan 20 20:53:28 Python interface unloaded
+**** ENDING LOGGING AT Thu Jan 20 20:53:28 2011
+
